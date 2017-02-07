@@ -59,4 +59,6 @@ gentthema:stad-beleid-bestuur a owl:Class, skos:Concept;
                               skos:prefLabel "Stad, beleid en bestuur"@nl;
                               rdfs:comment  "alles over de troeven van de Stad Gent, op welke manier het bestuur de stad doet leven en hoe u zelf uw steentje kan bijdragen."@nl;
                               skos:inScheme <http://stad.gent/id/ns/themas/>;
-                              skos:broadMatch <http://data.gov.be/en/taxonomy/term/42>, <http://publications.europa.eu/resource/authority/data-theme/REGI>.
+                              skos:broadMatch <http://data.gov.be/en/taxonomy/term/42> ;
+                              skos:narrowMatch <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+                              skos:closeMatch <http://publications.europa.eu/resource/authority/data-theme/GOVE>.
