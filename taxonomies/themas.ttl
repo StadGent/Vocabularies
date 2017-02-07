@@ -17,24 +17,29 @@ gentthema:cultuur-sport-vrije-tijd a owl:Class, skos:Concept;
                                    skos:prefLabel "Cultuur, Sport & Vrije Tijd"@nl;
                                    rdfs:comment "Ook bibliotheek, jeugd, kunst, erfgoed, evenementen, toerisme en media."@nl;
                                    skos:inScheme <http://stad.gent/id/ns/themas/>;
-                                   skos:exactMatch <http://data.gov.be/en/taxonomy/term/59>, <http://publications.europa.eu/resource/authority/data-theme/EDUC>.
+                                   skos:exactMatch <http://data.gov.be/en/taxonomy/term/59>, <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
+                                   skos:narrowMatch <http://ns.thedatatank.com/dcat/themes#CulturalEvents>, <http://ns.thedatatank.com/dcat/themes#CulturalHeritage>, <http://ns.thedatatank.com/dcat/themes#Media>, <http://ns.thedatatank.com/dcat/themes#Sport>, <http://ns.thedatatank.com/dcat/themes#Tourism>.
 
 gentthema:mobiliteit-openbare-werken a owl:Class, skos:Concept;
                                      skos:prefLabel "Mobiliteit & openbare werken"@nl;
                                      rdfs:comment "Ontdek hier de infrastructuur- en mobiliteitsprojecten in uw buurt en onze plannen om het in de toekomst nog beter te maken."@nl;
                                      skos:inScheme <http://stad.gent/id/ns/themas/>;
+                                     skos:closeMatch <http://ns.thedatatank.com/dcat/themes#Mobility>;
                                      skos:broadMatch <http://data.gov.be/en/taxonomy/term/36>, <http://publications.europa.eu/resource/authority/data-theme/TRAN>.
 
 gentthema:onderwijs-kinderopvang a owl:Class, skos:Concept;
                                  skos:prefLabel "Onderwijs & kinderopvang"@nl;
                                  rdfs:comment "Gent is de grootste onderwijsstad van Vlaanderen. Met een ruim aanbod voor kleuters, kinderen, tieners en studenten."@nl;
                                  skos:inScheme <http://stad.gent/id/ns/themas/>;
+                                 skos:narrowMatch <http://ns.thedatatank.com/dcat/themes#Education>;
                                  skos:broadMatch <http://data.gov.be/en/taxonomy/term/33>, <http://publications.europa.eu/resource/authority/data-theme/EDUC>.
 
 gentthema:werken-ondernemen a owl:Class, skos:Concept;
                             skos:prefLabel "Werken & Ondernemen"@nl;
                             rdfs:comment "Wilt u werken of stage lopen in Gent? Of hebt u vragen over het ondernemerschap?"@nl;
                             skos:inScheme <http://stad.gent/id/ns/themas/>;
+                            skos:closeMatch <http://ns.thedatatank.com/dcat/themes#Economy>;
+                            skos:narrowMatch <http://ns.thedatatank.com/dcat/themes#Financing>, <http://ns.thedatatank.com/dcat/themes#Work>;
                             skos:broadMatch <http://data.gov.be/en/taxonomy/term/38>, <http://publications.europa.eu/resource/authority/data-theme/ECON>.
 
 gentthema:natuur-milieu a owl:Class, skos:Concept;
@@ -53,6 +58,8 @@ gentthema:welzijn-gezondheid a owl:Class, skos:Concept;
                              skos:prefLabel "Welzijn & Gezondheid"@nl;
                              rdfs:comment "Wegwijs in gezondheids- en welzijnszorg, OCMW, armoede, integratie en migratie, senioren, personen met een beperking, vrijwilligerswerk, Digitaal.Talent@Gent"@nl;
                              skos:inScheme <http://stad.gent/id/ns/themas/>;
+                             skos:closeMatch <http://ns.thedatatank.com/dcat/themes#Environment>, <http://ns.thedatatank.com/dcat/themes#LivingHealthWelfare>;
+                             skos:narrowMatch <http://ns.thedatatank.com/dcat/themes#SafetyAndJustice>;
                              skos:broadMatch <http://data.gov.be/en/taxonomy/term/40>, <http://data.gov.be/en/taxonomy/term/39>, <http://publications.europa.eu/resource/authority/data-theme/HEAL>, <http://publications.europa.eu/resource/authority/data-theme/SOCI>.
 
 gentthema:stad-beleid-bestuur a owl:Class, skos:Concept;
@@ -60,5 +67,6 @@ gentthema:stad-beleid-bestuur a owl:Class, skos:Concept;
                               rdfs:comment  "alles over de troeven van de Stad Gent, op welke manier het bestuur de stad doet leven en hoe u zelf uw steentje kan bijdragen."@nl;
                               skos:inScheme <http://stad.gent/id/ns/themas/>;
                               skos:broadMatch <http://data.gov.be/en/taxonomy/term/42> ;
+                              skos:narrowMatch <http://ns.thedatatank.com/dcat/themes#Demography>, <http://ns.thedatatank.com/dcat/themes#Financing>, <http://ns.thedatatank.com/dcat/themes#Law>, <http://ns.thedatatank.com/dcat/themes#Research>, <http://ns.thedatatank.com/dcat/themes#SafetyAndJustice>;
+                              skos:closeMatch <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://ns.thedatatank.com/dcat/themes#Government>;
                               skos:narrowMatch <http://publications.europa.eu/resource/authority/data-theme/REGI>;
-                              skos:closeMatch <http://publications.europa.eu/resource/authority/data-theme/GOVE>.
