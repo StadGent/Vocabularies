@@ -69,4 +69,4 @@ gentthema:stad-beleid-bestuur a owl:Class, skos:Concept;
                               skos:broadMatch <http://data.gov.be/en/taxonomy/term/42> ;
                               skos:narrowMatch <http://ns.thedatatank.com/dcat/themes#Demography>, <http://ns.thedatatank.com/dcat/themes#Financing>, <http://ns.thedatatank.com/dcat/themes#Law>, <http://ns.thedatatank.com/dcat/themes#Research>, <http://ns.thedatatank.com/dcat/themes#SafetyAndJustice>;
                               skos:closeMatch <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://ns.thedatatank.com/dcat/themes#Government>;
-                              skos:narrowMatch <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+                              skos:narrowMatch <http://publications.europa.eu/resource/authority/data-theme/REGI>.
