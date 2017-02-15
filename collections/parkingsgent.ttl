@@ -1,0 +1,26 @@
+@prefix datex: <http://vocab.datex.org/terms#>.
+@prefix gp: <https://stad.gent/id/parking/>. #Ghent Parkings
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/>.
+gp:P1 a datex:ParkingSite,schema:ParkingFacility;
+      foaf:page <https://mobiliteit.stad.gent/p1-vrijdagmarkt> ;
+      rdfs:label "P1 Vrijdagmarkt" .
+gp:P2 a datex:ParkingSite,schema:ParkingFacility ;
+      foaf:page <https://mobiliteit.stad.gent/p2-reep> ;
+      rdfs:label "P2 Reep" .
+gp:P4 a datex:ParkingSite,schema:ParkingFacility ;
+      foaf:page <https://mobiliteit.stad.gent/savaanstraat> ;
+      rdfs:label "P4 Savaanstraat" .
+gp:P7 a datex:ParkingSite,schema:ParkingFacility ;
+      foaf:page <https://mobiliteit.stad.gent/p7-sint-michiels> ;
+      rdfs:label "P7 Sint-Michiels".
+gp:P8 a datex:ParkingSite,schema:ParkingFacility ;
+      foaf:page <https://mobiliteit.stad.gent/p8-ramen> ;
+      rdfs:label "P8 Ramen".
+gp:P10 a datex:ParkingSite,schema:ParkingFacility ;
+       foaf:page <https://mobiliteit.stad.gent/p10-sint-pietersplein> ;
+       rdfs:label "P10 Sint-Pietersplein" .
+gp:tolhuis a datex:ParkingSite,schema:ParkingFacility ;
+           foaf:page <https://mobiliteit.stad.gent/p-tolhuis> ;
+           rdfs:label "Tolhuis".
