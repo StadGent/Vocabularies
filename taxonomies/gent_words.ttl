@@ -1,0 +1,3335 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-thes: <http://purl.org/iso25964/skos-thes#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://stad.gent/id/concepts/gent_words/173> a skos:Concept ;
+    dcterms:identifier 173 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "trilling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/175> a skos:Concept ;
+    dcterms:identifier 175 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "lichthinder"@nl .
+
+<http://stad.gent/id/concepts/gent_words/176> a skos:Concept ;
+    dcterms:identifier 176 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "geurhinder"@nl .
+
+<http://stad.gent/id/concepts/gent_words/211> a skos:Concept ;
+    dcterms:identifier 211 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "ICT"@nl .
+
+<http://stad.gent/id/concepts/gent_words/212> a skos:Concept ;
+    dcterms:identifier 212 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "telefonie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/228> a skos:Concept ;
+    dcterms:identifier 228 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Overgenomen uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "taalgebruik"@nl .
+
+<http://stad.gent/id/concepts/gent_words/233> a skos:Concept ;
+    dcterms:identifier 233 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/232> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "personen met een beperking"@nl .
+
+<http://stad.gent/id/concepts/gent_words/259> a skos:Concept ;
+    dcterms:identifier 259 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen als 'openbare veiligheid'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "veiligheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/269> a skos:Concept ;
+    dcterms:identifier 269 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "toegankelijkheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/282> a skos:Concept ;
+    dcterms:identifier 282 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "betaalbaar wonen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/285> a skos:Concept ;
+    dcterms:identifier 285 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "huisvesting"@nl .
+
+<http://stad.gent/id/concepts/gent_words/286> a skos:Concept ;
+    dcterms:identifier 286 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "infrastructuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words/287> a skos:Concept ;
+    dcterms:identifier 287 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "herstelling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/288> a skos:Concept ;
+    dcterms:identifier 288 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "wachtlijst"@nl .
+
+<http://stad.gent/id/concepts/gent_words/289> a skos:Concept ;
+    dcterms:identifier 289 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "aanrekening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/296> a skos:Concept ;
+    dcterms:identifier 296 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "huisvesting (sociaal en aangepast wonen)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/304> a skos:Concept ;
+    dcterms:identifier 304 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "stofhinder"@nl .
+
+<http://stad.gent/id/concepts/gent_words/305> a skos:Concept ;
+    dcterms:identifier 305 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/232> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "senioren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/481> a skos:Concept ;
+    dcterms:identifier 481 ;
+    skos:altLabel "verontrustende situaties (geweld, trauma, zelfdoding, depressie, mishandeling, misbruik…)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verontrustende situaties"@nl .
+
+<http://stad.gent/id/concepts/gent_words/105> a skos:Concept ;
+    dcterms:identifier 105 ;
+    skos:altLabel "weginfrastructuur"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Dit was er opgenomen via twee aparte lemma's: 'weginfrastructuur' en 'fietspad, voetpad, weg'. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was er opgenomen onder het lemma 'wegdek en trottoirs'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "fietspad, voetpad, weg"@nl .
+
+<http://stad.gent/id/concepts/gent_words/111> a skos:Concept ;
+    dcterms:identifier 111 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "signalisatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/114> a skos:Concept ;
+    dcterms:identifier 114 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "parkeergarages"@nl .
+
+<http://stad.gent/id/concepts/gent_words/116> a skos:Concept ;
+    dcterms:identifier 116 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "park and ride"@nl .
+
+<http://stad.gent/id/concepts/gent_words/120> a skos:Concept ;
+    dcterms:identifier 120 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl,
+        "Afkomstig uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "grafitti"@nl .
+
+<http://stad.gent/id/concepts/gent_words/124> a skos:Concept ;
+    dcterms:identifier 124 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/135> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "hondenpoep"@nl .
+
+<http://stad.gent/id/concepts/gent_words/127> a skos:Concept ;
+    dcterms:identifier 127 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "plein"@nl .
+
+<http://stad.gent/id/concepts/gent_words/131> a skos:Concept ;
+    dcterms:identifier 131 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/53> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Daar was dit opgenomen onder het lemma 'sportaccomodatie'."@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'zwembaden en sporthallen'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sportinfrastructuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words/133> a skos:Concept ;
+    dcterms:identifier 133 ;
+    skos:altLabel "water"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxononomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "waterelementen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/138> a skos:Concept ;
+    dcterms:identifier 138 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/135> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "plaagdieren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/139> a skos:Concept ;
+    dcterms:identifier 139 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/135> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "loslopende dieren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/141> a skos:Concept ;
+    dcterms:identifier 141 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/310> ;
+    skos:historyNote "Afkomstig uit een vorige versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "energie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/143> a skos:Concept ;
+    dcterms:identifier 143 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit een vorige versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "luchtvervuiling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/148> a skos:Concept ;
+    dcterms:identifier 148 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote """Overgenomen uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'rijden en reizen'
+	"""@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'burgerzaken - reispassen'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "reizen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/150> a skos:Concept ;
+    dcterms:identifier 150 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen als het lemma monumenten binnen het thema cultuur, sport, toerisme en feesten."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "monumenten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/152> a skos:Concept ;
+    dcterms:identifier 152 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "horeca"@nl .
+
+<http://stad.gent/id/concepts/gent_words/153> a skos:Concept ;
+    dcterms:identifier 153 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/66> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Pretfabriek en Komaf"@nl .
+
+<http://stad.gent/id/concepts/gent_words/155> a skos:Concept ;
+    dcterms:identifier 155 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "uitpas"@nl .
+
+<http://stad.gent/id/concepts/gent_words/156> a skos:Concept ;
+    dcterms:identifier 156 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/53> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sportkampen en -cursussen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/157> a skos:Concept ;
+    dcterms:identifier 157 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/53> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sportactiviteiten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/158> a skos:Concept ;
+    dcterms:identifier 158 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/53> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sport reservaties"@nl .
+
+<http://stad.gent/id/concepts/gent_words/159> a skos:Concept ;
+    dcterms:identifier 159 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/64> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Bereikbaarheid Gentse Feesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/160> a skos:Concept ;
+    dcterms:identifier 160 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/64> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vergunning straatanimatie Gentse Feesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/161> a skos:Concept ;
+    dcterms:identifier 161 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/135> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "dierenoverlast"@nl .
+
+<http://stad.gent/id/concepts/gent_words/162> a skos:Concept ;
+    dcterms:identifier 162 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/135> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "dierenwelzijn"@nl .
+
+<http://stad.gent/id/concepts/gent_words/163> a skos:Concept ;
+    dcterms:identifier 163 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/135> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "dode dieren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/167> a skos:Concept ;
+    dcterms:identifier 167 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/164> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bomen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/168> a skos:Concept ;
+    dcterms:identifier 168 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/164> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "groenonderhoud"@nl .
+
+<http://stad.gent/id/concepts/gent_words/170> a skos:Concept ;
+    dcterms:identifier 170 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vervuiling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/171> a skos:Concept ;
+    dcterms:identifier 171 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/164> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "onkruid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/172> a skos:Concept ;
+    dcterms:identifier 172 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/118> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sluikstort"@nl .
+
+<http://stad.gent/id/concepts/gent_words/177> a skos:Concept ;
+    dcterms:identifier 177 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/118> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "huisvuilophaling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/178> a skos:Concept ;
+    dcterms:identifier 178 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/118> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "recyclageparkren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/180> a skos:Concept ;
+    dcterms:identifier 180 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/179> ;
+    skos:historyNote "Nieuw toegevoegd ter vervanging van de term online afspraken bij 'over Gent en het stadsbestuur'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Online afspraken - Lage Emissie Zone (LEZ)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/181> a skos:Concept ;
+    dcterms:identifier 181 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/310> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "subsidies en premies milieu"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/323> .
+
+<http://stad.gent/id/concepts/gent_words/184> a skos:Concept ;
+    dcterms:identifier 184 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "nutsvoorzieningen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/186> a skos:Concept ;
+    dcterms:identifier 186 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Nieuw toegevoegd ter vervanging van de term online afspraken bij 'over Gent en het stadsbestuur'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "online afspraken - mobiliteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/187> a skos:Concept ;
+    dcterms:identifier 187 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder toegangsbeheer. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vergunningen autovrij gebied"@nl .
+
+<http://stad.gent/id/concepts/gent_words/193> a skos:Concept ;
+    dcterms:identifier 193 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "School"@nl .
+
+<http://stad.gent/id/concepts/gent_words/197> a skos:Concept ;
+    dcterms:identifier 197 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/26> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "opvoedingsondersteuning"@nl .
+
+<http://stad.gent/id/concepts/gent_words/200> a skos:Concept ;
+    dcterms:identifier 200 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bestuur en beleid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/202> a skos:Concept ;
+    dcterms:identifier 202 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/201> ;
+    skos:historyNote "Overgenomen uit een eerdere versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "cocreatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/203> a skos:Concept ;
+    dcterms:identifier 203 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/201> ;
+    skos:historyNote "Overgenomen uit een eerdere versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "inspraak"@nl .
+
+<http://stad.gent/id/concepts/gent_words/204> a skos:Concept ;
+    dcterms:identifier 204 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/201> ;
+    skos:historyNote "Overgenomen uit een eerdere versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "tijdelijke invulling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/206> a skos:Concept ;
+    dcterms:identifier 206 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/205> ;
+    skos:historyNote "Overgenomen uit een eerdere versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "noord zuid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/207> a skos:Concept ;
+    dcterms:identifier 207 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/205> ;
+    skos:historyNote "Overgenomen uit een eerdere versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Europa"@nl .
+
+<http://stad.gent/id/concepts/gent_words/209> a skos:Concept ;
+    dcterms:identifier 209 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Dit was daar opgenomen onder het lemma 'stadspatrimonium en infrastructuur'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "stadseigendommen en infrastructuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words/213> a skos:Concept ;
+    dcterms:identifier 213 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "belastingen stad"@nl .
+
+<http://stad.gent/id/concepts/gent_words/214> a skos:Concept ;
+    dcterms:identifier 214 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "belastingen andere overheden"@nl .
+
+<http://stad.gent/id/concepts/gent_words/215> a skos:Concept ;
+    dcterms:identifier 215 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen via het meer specifieke lemma 'openbaarheid van bestuur' en onder de meer algmene term 'informatieverstrekking'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "informatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/216> a skos:Concept ;
+    dcterms:identifier 216 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "contactgegevens stads - en ocmw-diesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/217> a skos:Concept ;
+    dcterms:identifier 217 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "contactgegevens andere overheden en organisaties"@nl .
+
+<http://stad.gent/id/concepts/gent_words/220> a skos:Concept ;
+    dcterms:identifier 220 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/219> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "facturen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/221> a skos:Concept ;
+    dcterms:identifier 221 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/219> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "deurwaarder"@nl .
+
+<http://stad.gent/id/concepts/gent_words/223> a skos:Concept ;
+    dcterms:identifier 223 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/219> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "schadeclaim"@nl .
+
+<http://stad.gent/id/concepts/gent_words/224> a skos:Concept ;
+    dcterms:identifier 224 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "rampen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/225> a skos:Concept ;
+    dcterms:identifier 225 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "advies"@nl .
+
+<http://stad.gent/id/concepts/gent_words/227> a skos:Concept ;
+    dcterms:identifier 227 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de taxonomiestructuur Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "pers"@nl .
+
+<http://stad.gent/id/concepts/gent_words/231> a skos:Concept ;
+    dcterms:identifier 231 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Gebaseerd op de trefwoordenlijst van de ombudsdienst waarbinnen verschillende lemma's opgenomen werden m.b.t. personeel."@nl,
+        "Overgenomen uit de categoriestructuur Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "werken bij Groep Gent"@nl .
+
+<http://stad.gent/id/concepts/gent_words/237> a skos:Concept ;
+    dcterms:identifier 237 ;
+    skos:altLabel "kansarmoede"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur van Gentinfo. Daar was dit opgenomen onder het lemma 'personen met een beperkt inkomen'. "@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma kansarmoede."@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. Daar waren zowel armoede als kansarmoede opgenomen als lemma. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "armoede en kansarmoede"@nl .
+
+<http://stad.gent/id/concepts/gent_words/239> a skos:Concept ;
+    dcterms:identifier 239 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "pesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/240> a skos:Concept ;
+    dcterms:identifier 240 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "discriminiatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/241> a skos:Concept ;
+    dcterms:identifier 241 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vermaatschappelijking van de zorg"@nl .
+
+<http://stad.gent/id/concepts/gent_words/242> a skos:Concept ;
+    dcterms:identifier 242 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "samenleven"@nl ;
+    skos:scopeNote """Deze term is specifiek opgenomen voor het aanduiden van issues of voorbeelden van maatschappelijk samenleven.
+De term is niet voorzien voor het samenleven van individuele als koppel, als gezin. """@nl .
+
+<http://stad.gent/id/concepts/gent_words/243> a skos:Concept ;
+    dcterms:identifier 243 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sociale cohesie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/244> a skos:Concept ;
+    dcterms:identifier 244 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vereenzaming"@nl .
+
+<http://stad.gent/id/concepts/gent_words/246> a skos:Concept ;
+    dcterms:identifier 246 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gentrificatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/247> a skos:Concept ;
+    dcterms:identifier 247 ;
+    skos:altLabel "drugs"@nl,
+        "verslaving"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verslaving en drugs"@nl ;
+    skos:scopeNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. Daar was dit opgenomen onder de lemma's 'verslaving' en 'drugs'."@nl .
+
+<http://stad.gent/id/concepts/gent_words/248> a skos:Concept ;
+    dcterms:identifier 248 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vervelingsgedrag"@nl .
+
+<http://stad.gent/id/concepts/gent_words/249> a skos:Concept ;
+    dcterms:identifier 249 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "werkloosheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/250> a skos:Concept ;
+    dcterms:identifier 250 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Daar was dit opgenomen als bedelaars."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bedelen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/251> a skos:Concept ;
+    dcterms:identifier 251 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "kraken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/253> a skos:Concept ;
+    dcterms:identifier 253 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/252> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "welzijnswerk"@nl .
+
+<http://stad.gent/id/concepts/gent_words/254> a skos:Concept ;
+    dcterms:identifier 254 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/252> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gezondheidszorg"@nl .
+
+<http://stad.gent/id/concepts/gent_words/255> a skos:Concept ;
+    dcterms:identifier 255 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/252> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Financiële hulpverlening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/256> a skos:Concept ;
+    dcterms:identifier 256 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/252> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "materiële hulpverlening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/257> a skos:Concept ;
+    dcterms:identifier 257 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/252> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sociale tegemoetkomingen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/260> a skos:Concept ;
+    dcterms:identifier 260 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "onveiligheidsgevoel"@nl .
+
+<http://stad.gent/id/concepts/gent_words/261> a skos:Concept ;
+    dcterms:identifier 261 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vandalisme"@nl .
+
+<http://stad.gent/id/concepts/gent_words/262> a skos:Concept ;
+    dcterms:identifier 262 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "inbraak"@nl .
+
+<http://stad.gent/id/concepts/gent_words/264> a skos:Concept ;
+    dcterms:identifier 264 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen als interventie brandweer"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "brandweer"@nl .
+
+<http://stad.gent/id/concepts/gent_words/266> a skos:Concept ;
+    dcterms:identifier 266 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "noodcentrales"@nl .
+
+<http://stad.gent/id/concepts/gent_words/267> a skos:Concept ;
+    dcterms:identifier 267 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gemeenschapswacht"@nl .
+
+<http://stad.gent/id/concepts/gent_words/268> a skos:Concept ;
+    dcterms:identifier 268 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gemeentelijke administratieve sancties (GAS)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/271> a skos:Concept ;
+    dcterms:identifier 271 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/270> ;
+    skos:historyNote """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "kleinhandel"@nl .
+
+<http://stad.gent/id/concepts/gent_words/272> a skos:Concept ;
+    dcterms:identifier 272 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/270> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen als middenstand
+"""@nl,
+        """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bedrijven"@nl .
+
+<http://stad.gent/id/concepts/gent_words/273> a skos:Concept ;
+    dcterms:identifier 273 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:historyNote """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vrijwilligers"@nl .
+
+<http://stad.gent/id/concepts/gent_words/275> a skos:Concept ;
+    dcterms:identifier 275 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/274> ;
+    skos:historyNote """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "werkgelegenheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/276> a skos:Concept ;
+    dcterms:identifier 276 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/274> ;
+    skos:historyNote """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "tewerkstelling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/277> a skos:Concept ;
+    dcterms:identifier 277 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/274> ;
+    skos:historyNote """Overgenomen uit een vorige versie van de stadsbrede taxonomie.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sociale tewerkstelling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/283> a skos:Concept ;
+    dcterms:identifier 283 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/284> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "aangepast wonen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/290> a skos:Concept ;
+    dcterms:identifier 290 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "onteigening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/293> a skos:Concept ;
+    dcterms:identifier 293 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "seniorenhuisvesting"@nl .
+
+<http://stad.gent/id/concepts/gent_words/300> a skos:Concept ;
+    dcterms:identifier 300 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "onbewoonbaarverklaring"@nl .
+
+<http://stad.gent/id/concepts/gent_words/303> a skos:Concept ;
+    dcterms:identifier 303 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:historyNote """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "ruimtelijke planning"@nl .
+
+<http://stad.gent/id/concepts/gent_words/308> a skos:Concept ;
+    dcterms:identifier 308 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "studentenhuisvesting"@nl .
+
+<http://stad.gent/id/concepts/gent_words/309> a skos:Concept ;
+    dcterms:identifier 309 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Nieuw toegevoegd ter vervanging van de term online afspraken bij 'over Gent en het stadsbestuur'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "online afspraken Burgerzaken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/311> a skos:Concept ;
+    dcterms:identifier 311 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/65> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bereikbaarheid lichtfestvival"@nl .
+
+<http://stad.gent/id/concepts/gent_words/312> a skos:Concept ;
+    dcterms:identifier 312 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/65> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "porgramma lichtfestival"@nl .
+
+<http://stad.gent/id/concepts/gent_words/313> a skos:Concept ;
+    dcterms:identifier 313 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "organiseren van een evenement"@nl .
+
+<http://stad.gent/id/concepts/gent_words/314> a skos:Concept ;
+    dcterms:identifier 314 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Van Eyck"@nl .
+
+<http://stad.gent/id/concepts/gent_words/315> a skos:Concept ;
+    dcterms:identifier 315 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/50> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "individuele reservatie musea"@nl .
+
+<http://stad.gent/id/concepts/gent_words/316> a skos:Concept ;
+    dcterms:identifier 316 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Shuttles en wandelbus"@nl .
+
+<http://stad.gent/id/concepts/gent_words/317> a skos:Concept ;
+    dcterms:identifier 317 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bewonersparkeren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/318> a skos:Concept ;
+    dcterms:identifier 318 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "parkeerretributies en parkeerboetes"@nl .
+
+<http://stad.gent/id/concepts/gent_words/319> a skos:Concept ;
+    dcterms:identifier 319 ;
+    skos:altLabel "stadsleverancier"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "overheidsopdrachten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/320> a skos:Concept ;
+    dcterms:identifier 320 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/218> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bereikbaarheid loketten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/321> a skos:Concept ;
+    dcterms:identifier 321 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/218> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bereikbaarheid telefonisch"@nl .
+
+<http://stad.gent/id/concepts/gent_words/322> a skos:Concept ;
+    dcterms:identifier 322 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/245> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "geestelijke gezondheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/325> a skos:Concept ;
+    dcterms:identifier 325 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sociale fraude"@nl .
+
+<http://stad.gent/id/concepts/gent_words/330> a skos:Concept ;
+    dcterms:identifier 330 ;
+    skos:altLabel "telefonie gentinfo"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:definition "Dit is een heel specifieke term voor het call center Gentinfo. De term wordt specifiek gebruikt voor alle calls die door gebrek aan info, al dan niet door het verbreken van het telefoongesprek, niet geclasseerd kunnen worden."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "niet geclasseerde case Gentinfo"@nl .
+
+<http://stad.gent/id/concepts/gent_words/333> a skos:Concept ;
+    dcterms:identifier 333 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bereikbaarheid tijdens evemenenten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/334> a skos:Concept ;
+    dcterms:identifier 334 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "boetes en retributies mobiliteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/335> a skos:Concept ;
+    dcterms:identifier 335 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "problemen tussen buren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/336> a skos:Concept ;
+    dcterms:identifier 336 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "problemen in de buurt"@nl .
+
+<http://stad.gent/id/concepts/gent_words/337> a skos:Concept ;
+    dcterms:identifier 337 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/30> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "subsidies ondernemen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/338> a skos:Concept ;
+    dcterms:identifier 338 ;
+    skos:altLabel "afspraak fiets"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note "De alternatieve versie 'afspraak fiets' is in gebruik in de trefwoordenlijst in de CRM Gentinfo totdat deze afgestemd wordt op deze stadsbrede taxonomie. "@nl ;
+    skos:prefLabel "online -  afspraken fiets"@nl .
+
+<http://stad.gent/id/concepts/gent_words/340> a skos:Concept ;
+    dcterms:identifier 340 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/118> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "zwerfvuil"@nl .
+
+<http://stad.gent/id/concepts/gent_words/341> a skos:Concept ;
+    dcterms:identifier 341 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/118> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vuilnisbakken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/342> a skos:Concept ;
+    dcterms:identifier 342 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:historyNote "Toegevoegd nav vergelijking taxonomie bij start eerstelijns klachtenmanagement in CRM (toegevoegd 28/5/2021)"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bekendmaking evenement"@nl .
+
+<http://stad.gent/id/concepts/gent_words/345> a skos:Concept ;
+    dcterms:identifier 345 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "opvang 0-3 j"@nl .
+
+<http://stad.gent/id/concepts/gent_words/346> a skos:Concept ;
+    dcterms:identifier 346 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "opvang vanaf 2,5 j"@nl .
+
+<http://stad.gent/id/concepts/gent_words/347> a skos:Concept ;
+    dcterms:identifier 347 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vroege opvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/348> a skos:Concept ;
+    dcterms:identifier 348 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "laatavondopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/349> a skos:Concept ;
+    dcterms:identifier 349 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "weekendopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/35> a skos:Concept ;
+    dcterms:identifier 35 ;
+    skos:altLabel "Aanbod cultuur, sport en vrije tijd"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit een eerdere versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "aanbod"@nl ;
+    skos:scopeNote """Deze term wordt specifiek gebruik voor het aanbod binnen het thema 'cultuur, sport en vrije tijd'
+Dit is ook gedocumenteerd binnen het alternatief label 'aanbod cultuur, sport en vrije tijd'"""@nl .
+
+<http://stad.gent/id/concepts/gent_words/350> a skos:Concept ;
+    dcterms:identifier 350 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "middagopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/351> a skos:Concept ;
+    dcterms:identifier 351 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "noodopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/352> a skos:Concept ;
+    dcterms:identifier 352 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/344> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "laattdijdige opvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/354> a skos:Concept ;
+    dcterms:identifier 354 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/195> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gezinsopvang (onthaalouders)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/355> a skos:Concept ;
+    dcterms:identifier 355 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/195> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "groepsopvang (kinderdagverblijven)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/356> a skos:Concept ;
+    dcterms:identifier 356 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/194> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "babysitdiensten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/357> a skos:Concept ;
+    dcterms:identifier 357 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/194> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "oppas ziek kind"@nl .
+
+<http://stad.gent/id/concepts/gent_words/359> a skos:Concept ;
+    dcterms:identifier 359 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/358> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "kindcode"@nl .
+
+<http://stad.gent/id/concepts/gent_words/36> a skos:Concept ;
+    dcterms:identifier 36 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "artiestenaanbod"@nl ;
+    skos:scopeNote """Afkomstig uit de categoriestructuur van Gentinfo. Dit was daar opgenomen onder het lemma 'artiestenaanbod' rechtstreeks onder vrije tijd. 
+Aangezien deze term specifiek doelt op het aanbod voor het organiseren van evenementen voegen we dit nu toe onder evenementen. """@nl .
+
+<http://stad.gent/id/concepts/gent_words/360> a skos:Concept ;
+    dcterms:identifier 360 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/358> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "adoptiekind"@nl .
+
+<http://stad.gent/id/concepts/gent_words/361> a skos:Concept ;
+    dcterms:identifier 361 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/358> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "pleegkind"@nl .
+
+<http://stad.gent/id/concepts/gent_words/362> a skos:Concept ;
+    dcterms:identifier 362 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/358> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sociale korting"@nl .
+
+<http://stad.gent/id/concepts/gent_words/363> a skos:Concept ;
+    dcterms:identifier 363 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/358> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "opvangfacturen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/366> a skos:Concept ;
+    dcterms:identifier 366 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/191> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "hogescholen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/367> a skos:Concept ;
+    dcterms:identifier 367 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/191> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "universiteiten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/368> a skos:Concept ;
+    dcterms:identifier 368 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "meld je aan, inschrijving"@nl .
+
+<http://stad.gent/id/concepts/gent_words/37> a skos:Concept ;
+    dcterms:identifier 37 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen onder 'cultuur, sport, toerisme en feesten - bibliotheek'"@nl,
+        "Binnen de trefwoordenlijst Gentinfo maakte dit deel uit van het lemma 'bibliotheek' onder 'bibliotheek en archief'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "bibliotheek"@nl .
+
+<http://stad.gent/id/concepts/gent_words/370> a skos:Concept ;
+    dcterms:identifier 370 ;
+    skos:altLabel "werkhouding en aandacht (motivatie, concentratie, ...)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/369> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "werkhouding en aandacht"@nl .
+
+<http://stad.gent/id/concepts/gent_words/371> a skos:Concept ;
+    dcterms:identifier 371 ;
+    skos:altLabel "schoolrijpheid (ontwikkeling (achterstand, voorsrpong) en transitiemomenten"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/369> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "schoolrijpheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/372> a skos:Concept ;
+    dcterms:identifier 372 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/369> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "studie- en huiswerkbegeleiding"@nl .
+
+<http://stad.gent/id/concepts/gent_words/373> a skos:Concept ;
+    dcterms:identifier 373 ;
+    skos:altLabel "specifieke vakken (taal, spraak, meertaligheid, rekenen, ...)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/369> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "specifieke vakken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/377> a skos:Concept ;
+    dcterms:identifier 377 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "inclusief onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/378> a skos:Concept ;
+    dcterms:identifier 378 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "studiekeuze"@nl .
+
+<http://stad.gent/id/concepts/gent_words/379> a skos:Concept ;
+    dcterms:identifier 379 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "schoolkeuze"@nl .
+
+<http://stad.gent/id/concepts/gent_words/38> a skos:Concept ;
+    dcterms:identifier 38 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Binnen de trefwoordenlijst Gentinfo maakte dit deel uit van het lemma archief onder het lemma 'bibliotheek en archief'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "archief"@nl .
+
+<http://stad.gent/id/concepts/gent_words/380> a skos:Concept ;
+    dcterms:identifier 380 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "studeren in het buitenland"@nl .
+
+<http://stad.gent/id/concepts/gent_words/381> a skos:Concept ;
+    dcterms:identifier 381 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "buitengewoon onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/383> a skos:Concept ;
+    dcterms:identifier 383 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/189> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "naar de kleuterklas"@nl .
+
+<http://stad.gent/id/concepts/gent_words/385> a skos:Concept ;
+    dcterms:identifier 385 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "spijbelen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/386> a skos:Concept ;
+    dcterms:identifier 386 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "huisonderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/387> a skos:Concept ;
+    dcterms:identifier 387 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "buitengezet op school"@nl .
+
+<http://stad.gent/id/concepts/gent_words/389> a skos:Concept ;
+    dcterms:identifier 389 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OKAN - anderstaligheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/390> a skos:Concept ;
+    dcterms:identifier 390 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/391> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "in leerplichtonderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/393> a skos:Concept ;
+    dcterms:identifier 393 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/189> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "van kleuter naar lager"@nl .
+
+<http://stad.gent/id/concepts/gent_words/394> a skos:Concept ;
+    dcterms:identifier 394 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/189> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "van lager naar het secundair"@nl .
+
+<http://stad.gent/id/concepts/gent_words/395> a skos:Concept ;
+    dcterms:identifier 395 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/190> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "secundair: van eerste naar tweede graad"@nl .
+
+<http://stad.gent/id/concepts/gent_words/396> a skos:Concept ;
+    dcterms:identifier 396 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/190> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "secundair: van tweede naar derde graad"@nl .
+
+<http://stad.gent/id/concepts/gent_words/397> a skos:Concept ;
+    dcterms:identifier 397 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/190> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "na het secundair"@nl .
+
+<http://stad.gent/id/concepts/gent_words/398> a skos:Concept ;
+    dcterms:identifier 398 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "ongekwalificeerde schoolverlater en NEETS (not in education and employment)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/399> a skos:Concept ;
+    dcterms:identifier 399 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "ouderparticipatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/400> a skos:Concept ;
+    dcterms:identifier 400 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "brugfiguren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/404> a skos:Concept ;
+    dcterms:identifier 404 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/403> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "artistieke talenten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/405> a skos:Concept ;
+    dcterms:identifier 405 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/403> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "korte vormingsactiviteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/406> a skos:Concept ;
+    dcterms:identifier 406 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/403> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "trainer en sportbegeleider"@nl .
+
+<http://stad.gent/id/concepts/gent_words/407> a skos:Concept ;
+    dcterms:identifier 407 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/402> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "diploma secundair via volwassenenonderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/408> a skos:Concept ;
+    dcterms:identifier 408 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/402> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "diploma secundair via examencomissie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/409> a skos:Concept ;
+    dcterms:identifier 409 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/402> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "diploma hoger onderwijs via flexibele trajecten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/410> a skos:Concept ;
+    dcterms:identifier 410 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/402> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "diploma leraar"@nl .
+
+<http://stad.gent/id/concepts/gent_words/411> a skos:Concept ;
+    dcterms:identifier 411 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "basiseducatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/412> a skos:Concept ;
+    dcterms:identifier 412 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "centra voor volwassenenonderwijs (CVO)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/413> a skos:Concept ;
+    dcterms:identifier 413 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "VDAB"@nl .
+
+<http://stad.gent/id/concepts/gent_words/414> a skos:Concept ;
+    dcterms:identifier 414 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Syntra"@nl .
+
+<http://stad.gent/id/concepts/gent_words/415> a skos:Concept ;
+    dcterms:identifier 415 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "uniformberoepen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/416> a skos:Concept ;
+    dcterms:identifier 416 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sportkaderopleidingen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/417> a skos:Concept ;
+    dcterms:identifier 417 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "beroepssectoren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/418> a skos:Concept ;
+    dcterms:identifier 418 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "privéopleidingen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/419> a skos:Concept ;
+    dcterms:identifier 419 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/401> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Nederlandse les (NT2)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/421> a skos:Concept ;
+    dcterms:identifier 421 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "logeren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/424> a skos:Concept ;
+    dcterms:identifier 424 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sport"@nl .
+
+<http://stad.gent/id/concepts/gent_words/425> a skos:Concept ;
+    dcterms:identifier 425 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "cultuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words/426> a skos:Concept ;
+    dcterms:identifier 426 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "jeugdverenigingen en cursussen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/427> a skos:Concept ;
+    dcterms:identifier 427 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "educatief vrijetijdsaanbod"@nl .
+
+<http://stad.gent/id/concepts/gent_words/428> a skos:Concept ;
+    dcterms:identifier 428 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vrije tijd voor kinderen met een beperking"@nl .
+
+<http://stad.gent/id/concepts/gent_words/429> a skos:Concept ;
+    dcterms:identifier 429 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/423> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "spel en ontmoeting (spelotheken)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/43> a skos:Concept ;
+    dcterms:identifier 43 ;
+    skos:altLabel "zaalverhuur cultuur, sport en vrije tijd"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "zaalverhuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words/430> a skos:Concept ;
+    dcterms:identifier 430 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/423> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "financiële tegemoetkoming"@nl .
+
+<http://stad.gent/id/concepts/gent_words/431> a skos:Concept ;
+    dcterms:identifier 431 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/423> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "brede school"@nl .
+
+<http://stad.gent/id/concepts/gent_words/432> a skos:Concept ;
+    dcterms:identifier 432 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/422> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vakantieopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/433> a skos:Concept ;
+    dcterms:identifier 433 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/422> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vakantiekampen zonder overnachting"@nl .
+
+<http://stad.gent/id/concepts/gent_words/434> a skos:Concept ;
+    dcterms:identifier 434 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/422> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vakantiekampen voor kinderen en jongeren met bijzondere aandacht"@nl .
+
+<http://stad.gent/id/concepts/gent_words/435> a skos:Concept ;
+    dcterms:identifier 435 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/422> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vakantiekampen met overnachting"@nl .
+
+<http://stad.gent/id/concepts/gent_words/440> a skos:Concept ;
+    dcterms:identifier 440 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/437> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Huis van het Kind - PREGO (preventieve gezinsondersteuning)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/442> a skos:Concept ;
+    dcterms:identifier 442 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/441> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "adoptie en pleegzorg"@nl .
+
+<http://stad.gent/id/concepts/gent_words/443> a skos:Concept ;
+    dcterms:identifier 443 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/441> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "brede instap (CLB, CAW, K&G, OCMW, OW)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/444> a skos:Concept ;
+    dcterms:identifier 444 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/441> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "rechtstreeks toegankelijke jeugdhulp"@nl .
+
+<http://stad.gent/id/concepts/gent_words/445> a skos:Concept ;
+    dcterms:identifier 445 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/441> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "niet rechtstreeks toegankelijke jeugdhulp"@nl .
+
+<http://stad.gent/id/concepts/gent_words/446> a skos:Concept ;
+    dcterms:identifier 446 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/441> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "crisis"@nl .
+
+<http://stad.gent/id/concepts/gent_words/448> a skos:Concept ;
+    dcterms:identifier 448 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/447> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vormingen en lezingen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/449> a skos:Concept ;
+    dcterms:identifier 449 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/447> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "trainingen voor ouders en opvoeders"@nl .
+
+<http://stad.gent/id/concepts/gent_words/450> a skos:Concept ;
+    dcterms:identifier 450 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/447> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "trainingen voor kinderen en jongeren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/451> a skos:Concept ;
+    dcterms:identifier 451 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/447> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "training in onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/452> a skos:Concept ;
+    dcterms:identifier 452 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/447> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "zelfzorg en persoonlijk netwerk"@nl .
+
+<http://stad.gent/id/concepts/gent_words/454> a skos:Concept ;
+    dcterms:identifier 454 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/453> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "toelagen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/455> a skos:Concept ;
+    dcterms:identifier 455 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/453> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "materiële hulp"@nl .
+
+<http://stad.gent/id/concepts/gent_words/456> a skos:Concept ;
+    dcterms:identifier 456 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/453> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OCMW, CAW, mutualiteiten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/457> a skos:Concept ;
+    dcterms:identifier 457 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/453> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "schoolfacturen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/460> a skos:Concept ;
+    dcterms:identifier 460 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/458> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "borstvoeding/flesvoeding"@nl .
+
+<http://stad.gent/id/concepts/gent_words/461> a skos:Concept ;
+    dcterms:identifier 461 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/458> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "wennen in de kinderopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/462> a skos:Concept ;
+    dcterms:identifier 462 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/458> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "zindelijkheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/463> a skos:Concept ;
+    dcterms:identifier 463 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "medisch onderzoek"@nl .
+
+<http://stad.gent/id/concepts/gent_words/464> a skos:Concept ;
+    dcterms:identifier 464 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "beweging"@nl .
+
+<http://stad.gent/id/concepts/gent_words/465> a skos:Concept ;
+    dcterms:identifier 465 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "slapen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/466> a skos:Concept ;
+    dcterms:identifier 466 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "tandzorg"@nl .
+
+<http://stad.gent/id/concepts/gent_words/467> a skos:Concept ;
+    dcterms:identifier 467 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "seksualiteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/468> a skos:Concept ;
+    dcterms:identifier 468 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gezonde voeding"@nl .
+
+<http://stad.gent/id/concepts/gent_words/469> a skos:Concept ;
+    dcterms:identifier 469 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "info besmettelijke ziektes"@nl .
+
+<http://stad.gent/id/concepts/gent_words/470> a skos:Concept ;
+    dcterms:identifier 470 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/459> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vaccinaties"@nl .
+
+<http://stad.gent/id/concepts/gent_words/471> a skos:Concept ;
+    dcterms:identifier 471 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/438> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verslaving: drugs, alcohol, media en schermtijd"@nl .
+
+<http://stad.gent/id/concepts/gent_words/472> a skos:Concept ;
+    dcterms:identifier 472 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/438> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "ziekte ouder/kind"@nl .
+
+<http://stad.gent/id/concepts/gent_words/473> a skos:Concept ;
+    dcterms:identifier 473 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/438> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "puberteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/474> a skos:Concept ;
+    dcterms:identifier 474 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/438> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "adolescentie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/475> a skos:Concept ;
+    dcterms:identifier 475 ;
+    skos:altLabel "gedragskenmerken (gehoorzaamheid, tics, sensitiviteit, druk gedrag)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gedragskenmerken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/476> a skos:Concept ;
+    dcterms:identifier 476 ;
+    skos:altLabel "emotionele ontwikkeling (emoties, zelfvertrouwen, weerbaarheid, emotieregulatie, verlies, rouw, hechting…)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "emotionele ontwikkeling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/477> a skos:Concept ;
+    dcterms:identifier 477 ;
+    skos:altLabel "sociale ontwikkeling (broer/zus, vriendschap, pesten, cultuur en regels, conflicthantering)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sociale ontwikkeling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/478> a skos:Concept ;
+    dcterms:identifier 478 ;
+    skos:altLabel "gezin: ouderschap, meerlingen, grootouders, transitie"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "gezin"@nl .
+
+<http://stad.gent/id/concepts/gent_words/479> a skos:Concept ;
+    dcterms:identifier 479 ;
+    skos:altLabel "brede diversiteit (identiteit, gender, racisme, discriminatie…)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "brede diversiteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/48> a skos:Concept ;
+    dcterms:identifier 48 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit een eerdere versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vraag en aanbod"@nl ;
+    skos:scopeNote "Deze term wordt specifiek gebruikt om de relatie tussen vraag en aanbod aan te duiden, met name met betrekking tot schaarste, overaanbod of een goede match tussen vraag en aanbod. "@nl .
+
+<http://stad.gent/id/concepts/gent_words/480> a skos:Concept ;
+    dcterms:identifier 480 ;
+    skos:altLabel "communiceren (geweld, trauma, zelfdoding, depressie, mishandeling, misbruik…)"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "communiceren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/482> a skos:Concept ;
+    dcterms:identifier 482 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "in hoger onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/483> a skos:Concept ;
+    dcterms:identifier 483 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "wijkmobiliteitsplannen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/484> a skos:Concept ;
+    dcterms:identifier 484 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - overlast door evenementen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/485> a skos:Concept ;
+    dcterms:identifier 485 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "Blaarmeersen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/486> a skos:Concept ;
+    dcterms:identifier 486 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - bereikbaarheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/487> a skos:Concept ;
+    dcterms:identifier 487 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vergunningen (bewoners, zorg, ...)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/488> a skos:Concept ;
+    dcterms:identifier 488 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/327> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "overige premies en subsidies"@nl .
+
+<http://stad.gent/id/concepts/gent_words/489> a skos:Concept ;
+    dcterms:identifier 489 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "privacy/gegevensbescherming"@nl .
+
+<http://stad.gent/id/concepts/gent_words/490> a skos:Concept ;
+    dcterms:identifier 490 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/327> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - gedrag/hoffelijkheid medewerker"@nl .
+
+<http://stad.gent/id/concepts/gent_words/492> a skos:Concept ;
+    dcterms:identifier 492 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "intrafamiliaal"@nl .
+
+<http://stad.gent/id/concepts/gent_words/494> a skos:Concept ;
+    dcterms:identifier 494 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/493> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "financieel/aanrekeningen (niet stad)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/495> a skos:Concept ;
+    dcterms:identifier 495 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/493> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - consumentenzaken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/496> a skos:Concept ;
+    dcterms:identifier 496 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/493> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - loopbaangerelateerd"@nl .
+
+<http://stad.gent/id/concepts/gent_words/498> a skos:Concept ;
+    dcterms:identifier 498 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/493> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - varia"@nl .
+
+<http://stad.gent/id/concepts/gent_words/51> a skos:Concept ;
+    dcterms:identifier 51 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/50> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "BoekJeBezoek"@nl .
+
+<http://stad.gent/id/concepts/gent_words/56> a skos:Concept ;
+    dcterms:identifier 56 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "informatie over evenement"@nl .
+
+<http://stad.gent/id/concepts/gent_words/57> a skos:Concept ;
+    dcterms:identifier 57 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/54> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "inschrijven voor een evenement"@nl .
+
+<http://stad.gent/id/concepts/gent_words/59> a skos:Concept ;
+    dcterms:identifier 59 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/64> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Dit was daar opgenomen onder het lemma 'overlast Gentse Feesten'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "hinder Gentse Feesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/60> a skos:Concept ;
+    dcterms:identifier 60 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/64> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "programma Gentse Feesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/62> a skos:Concept ;
+    dcterms:identifier 62 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/64> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "standplaats Gentse Feesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/67> a skos:Concept ;
+    dcterms:identifier 67 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma: cultuur, sport, toerisme en feesten - feesten en evenementen'. "@nl,
+        "Afkomstig uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "feesten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/68> a skos:Concept ;
+    dcterms:identifier 68 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:historyNote "Binnen de trefwoordenlijst Gentinfo was dit opgenomen onder het lemma 'markten en foren'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "markten en foren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/70> a skos:Concept ;
+    dcterms:identifier 70 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Dit was daar opgenomen onder het lemma 'openinguren handelszaken'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "shoppen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/71> a skos:Concept ;
+    dcterms:identifier 71 ;
+    skos:altLabel "privaat gebruik openbare weg"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/24> ;
+    skos:historyNote """Overgenomen uit zowel de categoriestructuut Gentinfo, de eerdere versie van de stadsbrede taxonomie en uit de trefwoordenlijst Gentinfo. 
+Allen gebruikten ze in verschillende thema (zoals mobiliteit, wonen, cultuur) de term privaat gebruik openbare weg.
+Bij de overgang naar Atramhasis stemmen we term nu ook af op de huidige werking rond inname publieke ruimte en brengen we dit uniek onder bij mobiliteit en openbare werken. """@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "inname publieke ruimte"@nl .
+
+<http://stad.gent/id/concepts/gent_words/76> a skos:Concept ;
+    dcterms:identifier 76 ;
+    skos:altLabel "circulatie"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "doorstroming"@nl .
+
+<http://stad.gent/id/concepts/gent_words/77> a skos:Concept ;
+    dcterms:identifier 77 ;
+    skos:altLabel "autodelen"@nl,
+        "fietsdelen"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "delen van auto of fiets"@nl .
+
+<http://stad.gent/id/concepts/gent_words/79> a skos:Concept ;
+    dcterms:identifier 79 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "knip"@nl .
+
+<http://stad.gent/id/concepts/gent_words/81> a skos:Concept ;
+    dcterms:identifier 81 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "buzzy pass"@nl .
+
+<http://stad.gent/id/concepts/gent_words/83> a skos:Concept ;
+    dcterms:identifier 83 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "straatparkeren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/84> a skos:Concept ;
+    dcterms:identifier 84 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "schoolomgeving"@nl .
+
+<http://stad.gent/id/concepts/gent_words/85> a skos:Concept ;
+    dcterms:identifier 85 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "sluipverkeer"@nl .
+
+<http://stad.gent/id/concepts/gent_words/86> a skos:Concept ;
+    dcterms:identifier 86 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verkeersdruk"@nl .
+
+<http://stad.gent/id/concepts/gent_words/89> a skos:Concept ;
+    dcterms:identifier 89 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "voetgangersgebied"@nl .
+
+<http://stad.gent/id/concepts/gent_words/90> a skos:Concept ;
+    dcterms:identifier 90 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "afwatering en riolering"@nl .
+
+<https://stad.gent/id/concepts/gent_words/10> a skos:Concept ;
+    dcterms:identifier 10 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur Gentinfo. Daar was het opgenomen onder het lemma 'huwen, samenwonen en scheiden'."@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Daar was het opgenomen onder de term 'burgerzaken - huwelijken'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "huwen, samenwonen en scheiden"@nl .
+
+<https://stad.gent/id/concepts/gent_words/13> a skos:Concept ;
+    dcterms:identifier 13 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur Gentinfo. Dit was er opgenomen onder het lemma 'legalisatie'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "legalisatie"@nl .
+
+<https://stad.gent/id/concepts/gent_words/16> a skos:Concept ;
+    dcterms:identifier 16 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'rijden en reizen'"@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'burgerzaken - rijbewijs'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "rijden"@nl .
+
+<https://stad.gent/id/concepts/gent_words/17> a skos:Concept ;
+    dcterms:identifier 17 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Deze term is overgenomen uit de categoriestructuur Gentinfo. Daar was het opgenomen onder het lemma 'uittreksels'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "uittreksel"@nl .
+
+<https://stad.gent/id/concepts/gent_words/19> a skos:Concept ;
+    dcterms:identifier 19 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote """Overgenomen uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'verkiezingen'.
+	"""@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'burgerzaken - verkiezingen'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verkiezingen"@nl .
+
+<https://stad.gent/id/concepts/gent_words/7> a skos:Concept ;
+    dcterms:identifier 7 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote """Overgenomen uit 'categoriestructuur Gentinfo'. 
+Daar was het opgenomen onder het lemma 'geboorte, erkenning, adoptie'. """@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdiensten. Daar was dit opgenomen onder het lemma 'Burgerzaken - geboorten'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "geboorte, erkenning en adoptie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/121> a skos:Concept ;
+    dcterms:identifier 121 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "drinkfontein"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/183> .
+
+<http://stad.gent/id/concepts/gent_words/125> a skos:Concept ;
+    dcterms:identifier 125 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "openbare toiletten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/134> a skos:Concept ;
+    dcterms:identifier 134 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "zitplekken"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/183> .
+
+<http://stad.gent/id/concepts/gent_words/142> a skos:Concept ;
+    dcterms:identifier 142 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/169> ;
+    skos:historyNote "Afkomstig uit een vorige versie van de stadsbrede taxonomie"@nl,
+        "afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen via het lemma 'lawaaihinder'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "geluid"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/491> .
+
+<http://stad.gent/id/concepts/gent_words/149> a skos:Concept ;
+    dcterms:identifier 149 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Dit was daar opgenomen onder het lemma 'toerisme'. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen onder het lemma 'toerisme'. "@nl,
+        "Afkomstig uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "toerisme"@nl .
+
+<http://stad.gent/id/concepts/gent_words/151> a skos:Concept ;
+    dcterms:identifier 151 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/50>,
+        <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note "Zowel opgenomen onder 'kust en cultuur' als onder 'shoppen en toerisme'."@nl ;
+    skos:prefLabel "musea"@nl .
+
+<http://stad.gent/id/concepts/gent_words/166> a skos:Concept ;
+    dcterms:identifier 166 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/164> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "begraafplaats"@nl ;
+    skos:related <https://stad.gent/id/concepts/gent_words/15> ;
+    skos:scopeNote "De term begraafplaats wordt opgenomen onder groen. Er is uiteraard wel ook een nauwe link met de term 'overlijden'. "@nl .
+
+<http://stad.gent/id/concepts/gent_words/179> a skos:Concept ;
+    dcterms:identifier 179 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/25> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/180> ;
+    skos:prefLabel "Lage Emissie Zone (LEZ)"@nl .
+
+<http://stad.gent/id/concepts/gent_words/182> a skos:Concept ;
+    dcterms:identifier 182 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "openbare werken"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/110> .
+
+<http://stad.gent/id/concepts/gent_words/226> a skos:Concept ;
+    dcterms:identifier 226 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma website. "@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "communicatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/232> a skos:Concept ;
+    dcterms:identifier 232 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/233>,
+        <http://stad.gent/id/concepts/gent_words/305> ;
+    skos:prefLabel "doelgroep"@nl ;
+    skos:scopeNote "Dit lemma is opgenomen om de werking richting specifieke sociale groepen te clusteren. We kiezen er niettemin bij voorkeur voor om eerder het maatschappelijk thema aan te duiden, eerder dan deze doelgroepen. "@nl .
+
+<http://stad.gent/id/concepts/gent_words/236> a skos:Concept ;
+    dcterms:identifier 236 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Dit was daar opgenomen als daklozen."@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "dak- en thuisloosheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/238> a skos:Concept ;
+    dcterms:identifier 238 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "migratie"@nl ;
+    skos:related <https://stad.gent/id/concepts/gent_words/14> .
+
+<http://stad.gent/id/concepts/gent_words/245> a skos:Concept ;
+    dcterms:identifier 245 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Daar was dit opgenomen als 'gezondheid/zorg'"@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/322> ;
+    skos:prefLabel "gezondheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/258> a skos:Concept ;
+    dcterms:identifier 258 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "preventie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/263> a skos:Concept ;
+    dcterms:identifier 263 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/265> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen als politiewerking. "@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "politie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/278> a skos:Concept ;
+    dcterms:identifier 278 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "woonkwaliteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/279> a skos:Concept ;
+    dcterms:identifier 279 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "woningaanbod"@nl .
+
+<http://stad.gent/id/concepts/gent_words/280> a skos:Concept ;
+    dcterms:identifier 280 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "leegstand"@nl .
+
+<http://stad.gent/id/concepts/gent_words/291> a skos:Concept ;
+    dcterms:identifier 291 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Dit was daar opgenomen via de bredere term (ver)kopen en (ver)huren. "@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "huren en verhuren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/292> a skos:Concept ;
+    dcterms:identifier 292 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Dit was daar opgenomen via de bredere term 'ver)kopen en (ver)huren. "@nl,
+        """Overgenomen uit een vorige versie van de stadsbrede taxonomie. 
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "privaat wonen"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/298> .
+
+<http://stad.gent/id/concepts/gent_words/298> a skos:Concept ;
+    dcterms:identifier 298 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/324> ;
+    skos:historyNote """Afkomstig uit de categoriestructuur Gentinfo.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "kopen en verkopen"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/292> .
+
+<http://stad.gent/id/concepts/gent_words/302> a skos:Concept ;
+    dcterms:identifier 302 ;
+    skos:prefLabel "attesten en vergunningen"@nl ;
+    skos:altLabel "attesten en vergunningen wonen en (ver)bouwen"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:historyNote """Afkomstig uit de categoriestructuur Gentinfo.
+"""@nl,
+        """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:related <http://stad.gent/id/concepts/gent_words/326> .
+
+<http://stad.gent/id/concepts/gent_words/323> a skos:Concept ;
+    dcterms:identifier 323 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "subsidies en premies wonen en (ver)bouwen"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/181> .
+
+<http://stad.gent/id/concepts/gent_words/326> a skos:Concept ;
+    dcterms:identifier 326 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "regelgeving bouwen en verbouwen"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/302> .
+
+<http://stad.gent/id/concepts/gent_words/339> a skos:Concept ;
+    dcterms:identifier 339 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "vaccinatie (covid19)"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/497> ;
+    skos:scopeNote "Dit lemma is specifiek aangemaakt voor de vaccinaties in het kader van Covid19. Dit wordt niet  gebruikt voor informatie over andere vaccinaties. "@nl .
+
+<http://stad.gent/id/concepts/gent_words/391> a skos:Concept ;
+    dcterms:identifier 391 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/390> ;
+    skos:prefLabel "flexibele leerwegen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/49> a skos:Concept ;
+    dcterms:identifier 49 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit een eerdere versie van de stadsbrede taxonomie"@nl,
+        "Binnen de categoriestructuur van Gentinfo was dit als een meer specifieke term opgenomen: sportactiviteiten"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "activiteiten"@nl ;
+    skos:scopeNote "Deze term is bedoeld voor alle mogelijke activiteiten waarbinnen men deel kan nemen binnen het volledige thema 'cultuur, sport en vrije tijd'. "@nl .
+
+<http://stad.gent/id/concepts/gent_words/491> a skos:Concept ;
+    dcterms:identifier 491 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/235> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - geluidsoverlast"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/142> ;
+    skos:scopeNote """Er is een nauwe relatie met het lemma 'geluid' onder 'milieuoverlast'. 
+De term 'OBM - geluidsoverlast' gaat over geluidsoverlast in de sfeer van samenleving, samenlevingsproblemen en buurtgebonden problemen. """@nl .
+
+<http://stad.gent/id/concepts/gent_words/497> a skos:Concept ;
+    dcterms:identifier 497 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/493> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "OMB - corona gerelateerd"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/339> .
+
+<http://stad.gent/id/concepts/gent_words/75> a skos:Concept ;
+    dcterms:identifier 75 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "auto"@nl .
+
+<http://stad.gent/id/concepts/gent_words/78> a skos:Concept ;
+    dcterms:identifier 78 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen onder het lemma 'fietsers'"@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "fiets"@nl .
+
+<http://stad.gent/id/concepts/gent_words/80> a skos:Concept ;
+    dcterms:identifier 80 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "openbaar vervoer en taxi"@nl .
+
+<http://stad.gent/id/concepts/gent_words/87> a skos:Concept ;
+    dcterms:identifier 87 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur van Gentinfo."@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verkeersveiligheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/88> a skos:Concept ;
+    dcterms:identifier 88 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/58> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "voetganger"@nl .
+
+<http://stad.gent/id/concepts/gent_words/92> a skos:Concept ;
+    dcterms:identifier 92 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van Geninfo. "@nl,
+        "Afkomstig uit een eerdere versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "verlichting"@nl .
+
+<https://stad.gent/id/concepts/gent_words/14> a skos:Concept ;
+    dcterms:identifier 14 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'migratie'"@nl,
+        "Overgenomen uit de trefwoordenlijst ombudsdienst. Dit was daar opgenomen onder het lemma 'burgerzaken - vreemdelingen'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "migratie"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/238> ;
+    skos:scopeNote """De term migratie komt dubbel voor in de taxonomie.
+ Deze term, in het kader van Burgerzaken heeft betrekking op de administratieve verwerking van een individuele migratiebeweging van een individu of een gezin. 
+Elders is deze term opgenomen in de betekenis van het sociaal fenomeen migratie. """@nl .
+
+<https://stad.gent/id/concepts/gent_words/15> a skos:Concept ;
+    dcterms:identifier 15 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'Overlijden'"@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen onder het lemma 'burgerzaken - overlijdens'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "overlijden"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/166> .
+
+<http://stad.gent/id/concepts/gent_words/110> a skos:Concept ;
+    dcterms:identifier 110 ;
+    skos:altLabel "heraanleg"@nl,
+        "openbare werken"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "herinrichting / heraanleg"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/182> ;
+    skos:scopeNote """Dit sluit nauw aan bij de term openbare werken. 
+- Herinrichting/heraanleg wordt specifiek gebruik voor het maken van de plannen en de afstemming erover: (hoe zal het plein, de straat, ... er uit zien na heraanleg/herinrichitng).
+- De term openbare werken wordt gebruikt voor de effectieve werken aan het plein, de straat, ... """@nl .
+
+<http://stad.gent/id/concepts/gent_words/154> a skos:Concept ;
+    dcterms:identifier 154 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/66>,
+        <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note """In de vorige versie van de stadsbrede taxonomie werd dit geclasseerd onder openbaar domein. We behouden dit als alternatieve structuur.
+
+Actueel geniet het de voorkeur dat dit vanuit jeugd gekoppeld wordt."""@nl ;
+    skos:prefLabel "speelstraat"@nl .
+
+<http://stad.gent/id/concepts/gent_words/191> a skos:Concept ;
+    dcterms:identifier 191 ;
+    skos:altLabel "hoger onderwijs en universitair onderwijs"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/365> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/366>,
+        <http://stad.gent/id/concepts/gent_words/367> ;
+    skos:prefLabel "hoger onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/195> a skos:Concept ;
+    dcterms:identifier 195 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/353> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/354>,
+        <http://stad.gent/id/concepts/gent_words/355> ;
+    skos:prefLabel "kinderdagverblijven, peutertuinen en onthaalouders"@nl .
+
+<http://stad.gent/id/concepts/gent_words/218> a skos:Concept ;
+    dcterms:identifier 218 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'bereikbaarheid van de diensten. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/320>,
+        <http://stad.gent/id/concepts/gent_words/321> ;
+    skos:prefLabel "bereikbaarheid van de diensten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/270> a skos:Concept ;
+    dcterms:identifier 270 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/30> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/271>,
+        <http://stad.gent/id/concepts/gent_words/272> ;
+    skos:prefLabel "ondernemen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/299> a skos:Concept ;
+    dcterms:identifier 299 ;
+    skos:altLabel "stadsvernieuwing"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74>,
+        <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:historyNote """Afkomstig uit de categoriestructuur Gentinfo.
+"""@nl,
+        """Afkomstig uit de trefwoordenlijst van de ombudsdienst.
+"""@nl,
+        """Overgenomen uit een vorige versie van de stadsbrede taxonomie. 
+"""@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "stadsontwikkeling"@nl .
+
+<http://stad.gent/id/concepts/gent_words/331> a skos:Concept ;
+    dcterms:identifier 331 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "referentieadres"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/332>,
+        <https://stad.gent/id/concepts/gent_words/6> .
+
+<http://stad.gent/id/concepts/gent_words/332> a skos:Concept ;
+    dcterms:identifier 332 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "ambtshalve schrapping"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/331>,
+        <https://stad.gent/id/concepts/gent_words/6> .
+
+<http://stad.gent/id/concepts/gent_words/353> a skos:Concept ;
+    dcterms:identifier 353 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/194> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/195>,
+        <http://stad.gent/id/concepts/gent_words/196> ;
+    skos:prefLabel "opvanglocaties"@nl .
+
+<http://stad.gent/id/concepts/gent_words/364> a skos:Concept ;
+    dcterms:identifier 364 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/365>,
+        <http://stad.gent/id/concepts/gent_words/388> ;
+    skos:prefLabel "onderwijsloopbaan"@nl .
+
+<http://stad.gent/id/concepts/gent_words/65> a skos:Concept ;
+    dcterms:identifier 65 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/311>,
+        <http://stad.gent/id/concepts/gent_words/312> ;
+    skos:prefLabel "Lichtfestival"@nl .
+
+<https://stad.gent/id/concepts/gent_words/6> a skos:Concept ;
+    dcterms:identifier 6 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/3> ;
+    skos:historyNote "Overgenomen uit de categoriestructuur  Gentinfo; Daar maakte dit deel uit van het lemma 'identiteit en verhuizen'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "identiteit en verhuizen"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/331>,
+        <http://stad.gent/id/concepts/gent_words/332> .
+
+<http://stad.gent/id/concepts/gent_words/128> a skos:Concept ;
+    dcterms:identifier 128 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note """Deze term is specifiek voorzien voor speelruimte op pleinen en langs wegen.
+De term is dan ook nauw gelinkt aan de term rond speelterreinen, parken en groenzones  binnen groen en milieu. """@nl ;
+    skos:prefLabel "speelruimte"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/130>,
+        <http://stad.gent/id/concepts/gent_words/165>,
+        <http://stad.gent/id/concepts/gent_words/185> .
+
+<http://stad.gent/id/concepts/gent_words/196> a skos:Concept ;
+    dcterms:identifier 196 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/353>,
+        <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo."@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "buitenschoolse opvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/201> a skos:Concept ;
+    dcterms:identifier 201 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/202>,
+        <http://stad.gent/id/concepts/gent_words/203>,
+        <http://stad.gent/id/concepts/gent_words/204> ;
+    skos:prefLabel "participatie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/205> a skos:Concept ;
+    dcterms:identifier 205 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/206>,
+        <http://stad.gent/id/concepts/gent_words/207> ;
+    skos:prefLabel "internationaal"@nl .
+
+<http://stad.gent/id/concepts/gent_words/219> a skos:Concept ;
+    dcterms:identifier 219 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/220>,
+        <http://stad.gent/id/concepts/gent_words/221>,
+        <http://stad.gent/id/concepts/gent_words/223> ;
+    skos:prefLabel "financieel"@nl .
+
+<http://stad.gent/id/concepts/gent_words/274> a skos:Concept ;
+    dcterms:identifier 274 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/30> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/275>,
+        <http://stad.gent/id/concepts/gent_words/276>,
+        <http://stad.gent/id/concepts/gent_words/277> ;
+    skos:prefLabel "werk"@nl .
+
+<http://stad.gent/id/concepts/gent_words/310> a skos:Concept ;
+    dcterms:identifier 310 ;
+    skos:altLabel "klimaat en milieu"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/25> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo"@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. Daar was dit opgenomen als 'klimaat en milieu'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/141>,
+        <http://stad.gent/id/concepts/gent_words/181> ;
+    skos:prefLabel "milieu"@nl .
+
+<http://stad.gent/id/concepts/gent_words/327> a skos:Concept ;
+    dcterms:identifier 327 ;
+    skos:altLabel "OMB - dienstverlening"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/488>,
+        <http://stad.gent/id/concepts/gent_words/490> ;
+    skos:note "De alternatieve term 'OMB - dienstverlening' is opgenomen in functie van Gentinfo en de ombudsdienst. "@nl ;
+    skos:prefLabel "dienstverlening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/365> a skos:Concept ;
+    dcterms:identifier 365 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/364> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/189>,
+        <http://stad.gent/id/concepts/gent_words/190>,
+        <http://stad.gent/id/concepts/gent_words/191> ;
+    skos:prefLabel "onderwijsniveaus met scharniermomenten"@nl .
+
+<http://stad.gent/id/concepts/gent_words/403> a skos:Concept ;
+    dcterms:identifier 403 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/192> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/404>,
+        <http://stad.gent/id/concepts/gent_words/405>,
+        <http://stad.gent/id/concepts/gent_words/406> ;
+    skos:prefLabel "vrije tijd en hobby"@nl .
+
+<http://stad.gent/id/concepts/gent_words/423> a skos:Concept ;
+    dcterms:identifier 423 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/429>,
+        <http://stad.gent/id/concepts/gent_words/430>,
+        <http://stad.gent/id/concepts/gent_words/431> ;
+    skos:prefLabel "laagdrempelig aanbod"@nl .
+
+<http://stad.gent/id/concepts/gent_words/436> a skos:Concept ;
+    dcterms:identifier 436 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/252> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/437>,
+        <http://stad.gent/id/concepts/gent_words/438>,
+        <http://stad.gent/id/concepts/gent_words/439> ;
+    skos:prefLabel "jeugdhulpverlening en hulp voor gezinnen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/458> a skos:Concept ;
+    dcterms:identifier 458 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/438> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/460>,
+        <http://stad.gent/id/concepts/gent_words/461>,
+        <http://stad.gent/id/concepts/gent_words/462> ;
+    skos:prefLabel "jonge kinderen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/130> a skos:Concept ;
+    dcterms:identifier 130 ;
+    skos:altLabel "speeltoestellen"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Overgenomen uit een vorige versie voor de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note "Deze term is specifiek voorzien voor speeltoestellen en speelpleintjes op pleinen en langs wegen. De term is dan ook nauw gelinkt aan de term rond speelterreinen, parken en groenzones binnen groen en milieu. "@nl ;
+    skos:prefLabel "speeltoestellen en speelpleinen"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/128>,
+        <http://stad.gent/id/concepts/gent_words/165>,
+        <http://stad.gent/id/concepts/gent_words/183>,
+        <http://stad.gent/id/concepts/gent_words/185> .
+
+<http://stad.gent/id/concepts/gent_words/165> a skos:Concept ;
+    dcterms:identifier 165 ;
+    skos:altLabel "park"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/164> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo. Daar was dit opgenomen als het lemma 'speel- en parkinfrastructuur'."@nl,
+        "Afkomstig uit een vorige versie van de stadsbrede taxonomie. Daar was dit opgenomen onder het lemma 'park'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note "De alternatieve term 'park' is in gebruik in de CRM Beleidssignalen"@nl ;
+    skos:prefLabel "speelterreinen, parken en groenzones"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/128>,
+        <http://stad.gent/id/concepts/gent_words/130>,
+        <http://stad.gent/id/concepts/gent_words/185> .
+
+<http://stad.gent/id/concepts/gent_words/183> a skos:Concept ;
+    dcterms:identifier 183 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:prefLabel "straatmeubilair"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/121>,
+        <http://stad.gent/id/concepts/gent_words/130>,
+        <http://stad.gent/id/concepts/gent_words/134>,
+        <http://stad.gent/id/concepts/gent_words/185> .
+
+<http://stad.gent/id/concepts/gent_words/185> a skos:Concept ;
+    dcterms:identifier 185 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/74> ;
+    skos:historyNote "Dit is overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:note "Deze term heeft een nauwe relatie met de termen mbt speelruimte en speeltoestellen op pleinen en langs de weg. Er is ook een nauwe relatie met groen en parken.  "@nl ;
+    skos:prefLabel "sporttoestellen (openbare ruimte)"@nl ;
+    skos:related <http://stad.gent/id/concepts/gent_words/128>,
+        <http://stad.gent/id/concepts/gent_words/130>,
+        <http://stad.gent/id/concepts/gent_words/165>,
+        <http://stad.gent/id/concepts/gent_words/183> ;
+    skos:scopeNote """Deze term wordt specifieke gebruikt voor sporttoestellen en sportinfrastructuur op pleinen, straten, groenzone, ...
+Dit onderscheidt zich tot sportinfrastructuur  zoals sportpleinen, sporthallen, zwembaden, ... """@nl .
+
+<http://stad.gent/id/concepts/gent_words/189> a skos:Concept ;
+    dcterms:identifier 189 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/365> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/383>,
+        <http://stad.gent/id/concepts/gent_words/393>,
+        <http://stad.gent/id/concepts/gent_words/394> ;
+    skos:prefLabel "basisonderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/190> a skos:Concept ;
+    dcterms:identifier 190 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/365> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/395>,
+        <http://stad.gent/id/concepts/gent_words/396>,
+        <http://stad.gent/id/concepts/gent_words/397> ;
+    skos:prefLabel "secundair onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/192> a skos:Concept ;
+    dcterms:identifier 192 ;
+    skos:altLabel "volwasseneducatie en levenslang leren"@nl ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/401>,
+        <http://stad.gent/id/concepts/gent_words/402>,
+        <http://stad.gent/id/concepts/gent_words/403> ;
+    skos:note """De term 'volwassenenonderwijs' wordt gebruikt bij Gentinfo en Klachten.
+De term 'volwasseneneducatie en levenslang leren' wordt gebruikt in de onthaalzone onderwijs, opvoeding en jeugd"""@nl ;
+    skos:prefLabel "volwassenenonderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/369> a skos:Concept ;
+    dcterms:identifier 369 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/188> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/370>,
+        <http://stad.gent/id/concepts/gent_words/371>,
+        <http://stad.gent/id/concepts/gent_words/372>,
+        <http://stad.gent/id/concepts/gent_words/373> ;
+    skos:prefLabel "leren en studeren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/402> a skos:Concept ;
+    dcterms:identifier 402 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/192> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/407>,
+        <http://stad.gent/id/concepts/gent_words/408>,
+        <http://stad.gent/id/concepts/gent_words/409>,
+        <http://stad.gent/id/concepts/gent_words/410> ;
+    skos:prefLabel "diplomagerichte opleiding"@nl .
+
+<http://stad.gent/id/concepts/gent_words/422> a skos:Concept ;
+    dcterms:identifier 422 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/432>,
+        <http://stad.gent/id/concepts/gent_words/433>,
+        <http://stad.gent/id/concepts/gent_words/434>,
+        <http://stad.gent/id/concepts/gent_words/435> ;
+    skos:prefLabel "vakantieaanbod"@nl .
+
+<http://stad.gent/id/concepts/gent_words/437> a skos:Concept ;
+    dcterms:identifier 437 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/436> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/440>,
+        <http://stad.gent/id/concepts/gent_words/441>,
+        <http://stad.gent/id/concepts/gent_words/447>,
+        <http://stad.gent/id/concepts/gent_words/453> ;
+    skos:prefLabel "draaischijf en doorverwijzing"@nl .
+
+<http://stad.gent/id/concepts/gent_words/453> a skos:Concept ;
+    dcterms:identifier 453 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/437> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/454>,
+        <http://stad.gent/id/concepts/gent_words/455>,
+        <http://stad.gent/id/concepts/gent_words/456>,
+        <http://stad.gent/id/concepts/gent_words/457> ;
+    skos:prefLabel "sociale dienstverlening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/50> a skos:Concept ;
+    dcterms:identifier 50 ;
+    skos:altLabel "cultuur"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Dit was daar opgenomen als 'kunst en cultuur'"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen als 'cultuur'"@nl,
+        "Afkomstig uit de vorige versie van de stradsbrede taxonomie. Dit was daar opgenomen als 'cultuur'"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/151>,
+        <http://stad.gent/id/concepts/gent_words/315>,
+        <http://stad.gent/id/concepts/gent_words/51> ;
+    skos:prefLabel "kunst en cultuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words/53> a skos:Concept ;
+    dcterms:identifier 53 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'sport en recreatie'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/131>,
+        <http://stad.gent/id/concepts/gent_words/156>,
+        <http://stad.gent/id/concepts/gent_words/157>,
+        <http://stad.gent/id/concepts/gent_words/158> ;
+    skos:prefLabel "sport"@nl .
+
+<http://stad.gent/id/concepts/gent_words/66> a skos:Concept ;
+    dcterms:identifier 66 ;
+    skos:altLabel "jeugdwerk"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit een vorige versie van de stadsbrede taxonomie. Toen was het opgenomen als 'jeugdwerk'. Deze term is behouden als alternatieve term. "@nl,
+        "Afkomstig van de categoriestructuur Gentinfo. Dit was daar opgenomen als het lemma 'cultuur' binnen het thema 'vrije tijd'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/153>,
+        <http://stad.gent/id/concepts/gent_words/154>,
+        <http://stad.gent/id/concepts/gent_words/420> ;
+    skos:prefLabel "jeugd"@nl .
+
+<https://stad.gent/id/concepts/gent_words/26> a skos:Concept ;
+    dcterms:identifier 26 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/188>,
+        <http://stad.gent/id/concepts/gent_words/194>,
+        <http://stad.gent/id/concepts/gent_words/197> ;
+    skos:prefLabel "onderwijs en kinderopvang"@nl .
+
+<https://stad.gent/id/concepts/gent_words/30> a skos:Concept ;
+    dcterms:identifier 30 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/270>,
+        <http://stad.gent/id/concepts/gent_words/274>,
+        <http://stad.gent/id/concepts/gent_words/337> ;
+    skos:prefLabel "werken en ondernemen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/358> a skos:Concept ;
+    dcterms:identifier 358 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/194> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/359>,
+        <http://stad.gent/id/concepts/gent_words/360>,
+        <http://stad.gent/id/concepts/gent_words/361>,
+        <http://stad.gent/id/concepts/gent_words/362>,
+        <http://stad.gent/id/concepts/gent_words/363> ;
+    skos:prefLabel "administratie en ouderbijdrage"@nl .
+
+<http://stad.gent/id/concepts/gent_words/441> a skos:Concept ;
+    dcterms:identifier 441 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/437> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/442>,
+        <http://stad.gent/id/concepts/gent_words/443>,
+        <http://stad.gent/id/concepts/gent_words/444>,
+        <http://stad.gent/id/concepts/gent_words/445>,
+        <http://stad.gent/id/concepts/gent_words/446> ;
+    skos:prefLabel "jeugdhulp"@nl .
+
+<http://stad.gent/id/concepts/gent_words/447> a skos:Concept ;
+    dcterms:identifier 447 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/437> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/448>,
+        <http://stad.gent/id/concepts/gent_words/449>,
+        <http://stad.gent/id/concepts/gent_words/450>,
+        <http://stad.gent/id/concepts/gent_words/451>,
+        <http://stad.gent/id/concepts/gent_words/452> ;
+    skos:prefLabel "vorming en netwerkversterking"@nl .
+
+<http://stad.gent/id/concepts/gent_words/493> a skos:Concept ;
+    dcterms:identifier 493 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/22> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/494>,
+        <http://stad.gent/id/concepts/gent_words/495>,
+        <http://stad.gent/id/concepts/gent_words/496>,
+        <http://stad.gent/id/concepts/gent_words/497>,
+        <http://stad.gent/id/concepts/gent_words/498> ;
+    skos:prefLabel "ombudsdienst"@nl ;
+    skos:scopeNote "Hieronder worden een aantal extra lemma's ondergebracht die specifiek relevant zijn voor de ombudsdienst, maar voor andere doeleinden niet relevant zijn. "@nl .
+
+<http://stad.gent/id/concepts/gent_words/64> a skos:Concept ;
+    dcterms:identifier 64 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/159>,
+        <http://stad.gent/id/concepts/gent_words/160>,
+        <http://stad.gent/id/concepts/gent_words/59>,
+        <http://stad.gent/id/concepts/gent_words/60>,
+        <http://stad.gent/id/concepts/gent_words/62> ;
+    skos:prefLabel "Gentse Feesten"@nl .
+
+<https://stad.gent/id/concepts/gent_words/24> a skos:Concept ;
+    dcterms:identifier 24 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/58>,
+        <http://stad.gent/id/concepts/gent_words/71>,
+        <http://stad.gent/id/concepts/gent_words/74>,
+        <http://stad.gent/id/concepts/gent_words/82> ;
+    skos:prefLabel "mobiliteit en openbare werken"@nl .
+
+<http://stad.gent/id/concepts/gent_words/118> a skos:Concept ;
+    dcterms:identifier 118 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/25> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl,
+        "Afkomstig uit een eerdere versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/172>,
+        <http://stad.gent/id/concepts/gent_words/177>,
+        <http://stad.gent/id/concepts/gent_words/178>,
+        <http://stad.gent/id/concepts/gent_words/340>,
+        <http://stad.gent/id/concepts/gent_words/341> ;
+    skos:prefLabel "afval"@nl .
+
+<http://stad.gent/id/concepts/gent_words/164> a skos:Concept ;
+    dcterms:identifier 164 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/25> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl,
+        "Afkomstig uit een oude versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/165>,
+        <http://stad.gent/id/concepts/gent_words/166>,
+        <http://stad.gent/id/concepts/gent_words/167>,
+        <http://stad.gent/id/concepts/gent_words/168>,
+        <http://stad.gent/id/concepts/gent_words/171> ;
+    skos:prefLabel "groen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/194> a skos:Concept ;
+    dcterms:identifier 194 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/26> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl,
+        "Overgenomen uit de trefwoordenlijst van de ombudsdienst. "@nl,
+        "Overgenomen uit een vorige versie van de stadsbrede taxonomie. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/344>,
+        <http://stad.gent/id/concepts/gent_words/353>,
+        <http://stad.gent/id/concepts/gent_words/356>,
+        <http://stad.gent/id/concepts/gent_words/357>,
+        <http://stad.gent/id/concepts/gent_words/358> ;
+    skos:prefLabel "kinderopvang"@nl .
+
+<http://stad.gent/id/concepts/gent_words/252> a skos:Concept ;
+    dcterms:identifier 252 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/253>,
+        <http://stad.gent/id/concepts/gent_words/254>,
+        <http://stad.gent/id/concepts/gent_words/255>,
+        <http://stad.gent/id/concepts/gent_words/256>,
+        <http://stad.gent/id/concepts/gent_words/257>,
+        <http://stad.gent/id/concepts/gent_words/436> ;
+    skos:prefLabel "hulpverlening"@nl .
+
+<http://stad.gent/id/concepts/gent_words/438> a skos:Concept ;
+    dcterms:identifier 438 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/436> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/458>,
+        <http://stad.gent/id/concepts/gent_words/459>,
+        <http://stad.gent/id/concepts/gent_words/471>,
+        <http://stad.gent/id/concepts/gent_words/472>,
+        <http://stad.gent/id/concepts/gent_words/473>,
+        <http://stad.gent/id/concepts/gent_words/474> ;
+    skos:prefLabel "gezondheid en ontwikkeling"@nl .
+
+<https://stad.gent/id/concepts/gent_words/29> a skos:Concept ;
+    dcterms:identifier 29 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/149>,
+        <http://stad.gent/id/concepts/gent_words/150>,
+        <http://stad.gent/id/concepts/gent_words/151>,
+        <http://stad.gent/id/concepts/gent_words/152>,
+        <http://stad.gent/id/concepts/gent_words/68>,
+        <http://stad.gent/id/concepts/gent_words/70> ;
+    skos:note """Dit is het enige hoofdthema van de website dat geen hoofditems is in de structuur van de trefwoorden. 
+Hier zijn twee redenen voor.
+1. Er is een bijzonder nauwe link met de andere trefwoorden binnen het thema 'cultuur, sport en vrije tijd'
+2. Onder dit thema 'shoppen en toerisme' zitten weinig trefwoorden. Bovendien worden die door de huidige gebruikers zelden gebruikt. """@nl ;
+    skos:prefLabel "shoppen en toerisme"@nl .
+
+<http://stad.gent/id/concepts/gent_words/135> a skos:Concept ;
+    dcterms:identifier 135 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/25> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. "@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl,
+        "Afkomstig uit een eerdere versie van de stadsbrede taxonomie"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/124>,
+        <http://stad.gent/id/concepts/gent_words/138>,
+        <http://stad.gent/id/concepts/gent_words/139>,
+        <http://stad.gent/id/concepts/gent_words/161>,
+        <http://stad.gent/id/concepts/gent_words/162>,
+        <http://stad.gent/id/concepts/gent_words/163> ;
+    skos:prefLabel "dieren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/169> a skos:Concept ;
+    dcterms:identifier 169 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/25> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Dit was daar opgenomen in het lemma 'milieu en groen'."@nl,
+        "Afkomstig uit een vorige versie van de stadsbrede taxonomie.Dit was daar opgenomen onder het lemma 'klimaat en milieu'."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/142>,
+        <http://stad.gent/id/concepts/gent_words/143>,
+        <http://stad.gent/id/concepts/gent_words/170>,
+        <http://stad.gent/id/concepts/gent_words/173>,
+        <http://stad.gent/id/concepts/gent_words/175>,
+        <http://stad.gent/id/concepts/gent_words/176>,
+        <http://stad.gent/id/concepts/gent_words/304> ;
+    skos:prefLabel "milieuhinder"@nl .
+
+<http://stad.gent/id/concepts/gent_words/188> a skos:Concept ;
+    dcterms:identifier 188 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/26> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/192>,
+        <http://stad.gent/id/concepts/gent_words/193>,
+        <http://stad.gent/id/concepts/gent_words/364>,
+        <http://stad.gent/id/concepts/gent_words/368>,
+        <http://stad.gent/id/concepts/gent_words/369>,
+        <http://stad.gent/id/concepts/gent_words/399>,
+        <http://stad.gent/id/concepts/gent_words/400> ;
+    skos:prefLabel "onderwijs"@nl .
+
+<http://stad.gent/id/concepts/gent_words/439> a skos:Concept ;
+    dcterms:identifier 439 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/436> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/475>,
+        <http://stad.gent/id/concepts/gent_words/476>,
+        <http://stad.gent/id/concepts/gent_words/477>,
+        <http://stad.gent/id/concepts/gent_words/478>,
+        <http://stad.gent/id/concepts/gent_words/479>,
+        <http://stad.gent/id/concepts/gent_words/480>,
+        <http://stad.gent/id/concepts/gent_words/481> ;
+    skos:prefLabel "psychosociaal functioneren"@nl .
+
+<http://stad.gent/id/concepts/gent_words/82> a skos:Concept ;
+    dcterms:identifier 82 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/24> ;
+    skos:historyNote "Overgenomen uit een vorige versie van de stadsbrede taxonomie."@nl,
+        "afkomstig uit de categoriestructuur van Gentinfo"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/114>,
+        <http://stad.gent/id/concepts/gent_words/116>,
+        <http://stad.gent/id/concepts/gent_words/317>,
+        <http://stad.gent/id/concepts/gent_words/318>,
+        <http://stad.gent/id/concepts/gent_words/487>,
+        <http://stad.gent/id/concepts/gent_words/83> ;
+    skos:prefLabel "parkeren"@nl .
+
+<https://stad.gent/id/concepts/gent_words/25> a skos:Concept ;
+    dcterms:identifier 25 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/118>,
+        <http://stad.gent/id/concepts/gent_words/135>,
+        <http://stad.gent/id/concepts/gent_words/164>,
+        <http://stad.gent/id/concepts/gent_words/169>,
+        <http://stad.gent/id/concepts/gent_words/179>,
+        <http://stad.gent/id/concepts/gent_words/310> ;
+    skos:prefLabel "groen en milieu"@nl .
+
+<http://stad.gent/id/concepts/gent_words/284> a skos:Concept ;
+    dcterms:identifier 284 ;
+    skos:altLabel "aangepast wonen"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur Gentinfo. Daar was dit opgenomen onder het lemma 'sociale huisvesting' dat even breed gebruikt werd. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/282>,
+        <http://stad.gent/id/concepts/gent_words/283>,
+        <http://stad.gent/id/concepts/gent_words/286>,
+        <http://stad.gent/id/concepts/gent_words/287>,
+        <http://stad.gent/id/concepts/gent_words/288>,
+        <http://stad.gent/id/concepts/gent_words/289>,
+        <http://stad.gent/id/concepts/gent_words/296> ;
+    skos:prefLabel "sociaal en aangepast wonen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/328> a skos:Concept ;
+    dcterms:identifier 328 ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <https://stad.gent/id/concepts/gent_words/22>,
+        <https://stad.gent/id/concepts/gent_words/23>,
+        <https://stad.gent/id/concepts/gent_words/24>,
+        <https://stad.gent/id/concepts/gent_words/25>,
+        <https://stad.gent/id/concepts/gent_words/26>,
+        <https://stad.gent/id/concepts/gent_words/28>,
+        <https://stad.gent/id/concepts/gent_words/3>,
+        <https://stad.gent/id/concepts/gent_words/30>,
+        <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:prefLabel "TREFWOORDEN"@nl .
+
+<http://stad.gent/id/concepts/gent_words/344> a skos:Concept ;
+    dcterms:identifier 344 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/194> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/345>,
+        <http://stad.gent/id/concepts/gent_words/346>,
+        <http://stad.gent/id/concepts/gent_words/347>,
+        <http://stad.gent/id/concepts/gent_words/348>,
+        <http://stad.gent/id/concepts/gent_words/349>,
+        <http://stad.gent/id/concepts/gent_words/350>,
+        <http://stad.gent/id/concepts/gent_words/351>,
+        <http://stad.gent/id/concepts/gent_words/352> ;
+    skos:prefLabel "opvangformules"@nl .
+
+<http://stad.gent/id/concepts/gent_words/459> a skos:Concept ;
+    dcterms:identifier 459 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/438> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/463>,
+        <http://stad.gent/id/concepts/gent_words/464>,
+        <http://stad.gent/id/concepts/gent_words/465>,
+        <http://stad.gent/id/concepts/gent_words/466>,
+        <http://stad.gent/id/concepts/gent_words/467>,
+        <http://stad.gent/id/concepts/gent_words/468>,
+        <http://stad.gent/id/concepts/gent_words/469>,
+        <http://stad.gent/id/concepts/gent_words/470> ;
+    skos:prefLabel "preventieve gezondheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/54> a skos:Concept ;
+    dcterms:identifier 54 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/23> ;
+    skos:historyNote "Afkomstig uit de categoriestructuur van Gentinfo"@nl,
+        "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'feesten en evenementen'. "@nl,
+        "Afkomstig uit een eerdere versie van de stadsbrede taxonomie."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/313>,
+        <http://stad.gent/id/concepts/gent_words/342>,
+        <http://stad.gent/id/concepts/gent_words/36>,
+        <http://stad.gent/id/concepts/gent_words/43>,
+        <http://stad.gent/id/concepts/gent_words/484>,
+        <http://stad.gent/id/concepts/gent_words/56>,
+        <http://stad.gent/id/concepts/gent_words/57> ;
+    skos:prefLabel "evenement"@nl .
+
+<https://stad.gent/id/concepts/gent_words/31> a skos:Concept ;
+    dcterms:identifier 31 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/284>,
+        <http://stad.gent/id/concepts/gent_words/299>,
+        <http://stad.gent/id/concepts/gent_words/302>,
+        <http://stad.gent/id/concepts/gent_words/303>,
+        <http://stad.gent/id/concepts/gent_words/323>,
+        <http://stad.gent/id/concepts/gent_words/324>,
+        <http://stad.gent/id/concepts/gent_words/326> ;
+    skos:prefLabel "wonen en (ver)bouwen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/401> a skos:Concept ;
+    dcterms:identifier 401 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/192> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/411>,
+        <http://stad.gent/id/concepts/gent_words/412>,
+        <http://stad.gent/id/concepts/gent_words/413>,
+        <http://stad.gent/id/concepts/gent_words/414>,
+        <http://stad.gent/id/concepts/gent_words/415>,
+        <http://stad.gent/id/concepts/gent_words/416>,
+        <http://stad.gent/id/concepts/gent_words/417>,
+        <http://stad.gent/id/concepts/gent_words/418>,
+        <http://stad.gent/id/concepts/gent_words/419> ;
+    skos:prefLabel "beroepsopleiding en bijscholing"@nl .
+
+<http://stad.gent/id/concepts/gent_words/420> a skos:Concept ;
+    dcterms:identifier 420 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/66> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/196>,
+        <http://stad.gent/id/concepts/gent_words/421>,
+        <http://stad.gent/id/concepts/gent_words/422>,
+        <http://stad.gent/id/concepts/gent_words/423>,
+        <http://stad.gent/id/concepts/gent_words/424>,
+        <http://stad.gent/id/concepts/gent_words/425>,
+        <http://stad.gent/id/concepts/gent_words/426>,
+        <http://stad.gent/id/concepts/gent_words/427>,
+        <http://stad.gent/id/concepts/gent_words/428> ;
+    skos:prefLabel "vrije tijd en vakantie"@nl .
+
+<https://stad.gent/id/concepts/gent_words/28> a skos:Concept ;
+    dcterms:identifier 28 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/232>,
+        <http://stad.gent/id/concepts/gent_words/235>,
+        <http://stad.gent/id/concepts/gent_words/252>,
+        <http://stad.gent/id/concepts/gent_words/265>,
+        <http://stad.gent/id/concepts/gent_words/269>,
+        <http://stad.gent/id/concepts/gent_words/273>,
+        <http://stad.gent/id/concepts/gent_words/325>,
+        <http://stad.gent/id/concepts/gent_words/339> ;
+    skos:prefLabel "samenleven, welzijn en gezondheid"@nl .
+
+<http://stad.gent/id/concepts/gent_words/265> a skos:Concept ;
+    dcterms:identifier 265 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/258>,
+        <http://stad.gent/id/concepts/gent_words/259>,
+        <http://stad.gent/id/concepts/gent_words/260>,
+        <http://stad.gent/id/concepts/gent_words/261>,
+        <http://stad.gent/id/concepts/gent_words/262>,
+        <http://stad.gent/id/concepts/gent_words/263>,
+        <http://stad.gent/id/concepts/gent_words/264>,
+        <http://stad.gent/id/concepts/gent_words/266>,
+        <http://stad.gent/id/concepts/gent_words/267>,
+        <http://stad.gent/id/concepts/gent_words/268> ;
+    skos:prefLabel "veiligheid en preventie"@nl .
+
+<http://stad.gent/id/concepts/gent_words/324> a skos:Concept ;
+    dcterms:identifier 324 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/31> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/278>,
+        <http://stad.gent/id/concepts/gent_words/279>,
+        <http://stad.gent/id/concepts/gent_words/280>,
+        <http://stad.gent/id/concepts/gent_words/285>,
+        <http://stad.gent/id/concepts/gent_words/290>,
+        <http://stad.gent/id/concepts/gent_words/291>,
+        <http://stad.gent/id/concepts/gent_words/292>,
+        <http://stad.gent/id/concepts/gent_words/293>,
+        <http://stad.gent/id/concepts/gent_words/298>,
+        <http://stad.gent/id/concepts/gent_words/300>,
+        <http://stad.gent/id/concepts/gent_words/308> ;
+    skos:prefLabel "wonen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/388> a skos:Concept ;
+    dcterms:identifier 388 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/364> ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/377>,
+        <http://stad.gent/id/concepts/gent_words/378>,
+        <http://stad.gent/id/concepts/gent_words/379>,
+        <http://stad.gent/id/concepts/gent_words/380>,
+        <http://stad.gent/id/concepts/gent_words/381>,
+        <http://stad.gent/id/concepts/gent_words/385>,
+        <http://stad.gent/id/concepts/gent_words/386>,
+        <http://stad.gent/id/concepts/gent_words/387>,
+        <http://stad.gent/id/concepts/gent_words/389>,
+        <http://stad.gent/id/concepts/gent_words/391>,
+        <http://stad.gent/id/concepts/gent_words/398>,
+        <http://stad.gent/id/concepts/gent_words/482> ;
+    skos:prefLabel "trajectbegeleiding bij onderwijskeuzes"@nl .
+
+<https://stad.gent/id/concepts/gent_words/3> a skos:Concept ;
+    dcterms:identifier 3 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/148>,
+        <http://stad.gent/id/concepts/gent_words/309>,
+        <http://stad.gent/id/concepts/gent_words/331>,
+        <http://stad.gent/id/concepts/gent_words/332>,
+        <https://stad.gent/id/concepts/gent_words/10>,
+        <https://stad.gent/id/concepts/gent_words/13>,
+        <https://stad.gent/id/concepts/gent_words/14>,
+        <https://stad.gent/id/concepts/gent_words/15>,
+        <https://stad.gent/id/concepts/gent_words/16>,
+        <https://stad.gent/id/concepts/gent_words/17>,
+        <https://stad.gent/id/concepts/gent_words/19>,
+        <https://stad.gent/id/concepts/gent_words/6>,
+        <https://stad.gent/id/concepts/gent_words/7> ;
+    skos:note "Deze term slaat op het ruime thema burgerzaken en is niet noodzakelijk gelijk aan het werkterrein van de dienst Burgerzaken. "@nl ;
+    skos:prefLabel "burgerzaken"@nl .
+
+<https://stad.gent/id/concepts/gent_words/23> a skos:Concept ;
+    dcterms:identifier 23 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/155>,
+        <http://stad.gent/id/concepts/gent_words/314>,
+        <http://stad.gent/id/concepts/gent_words/35>,
+        <http://stad.gent/id/concepts/gent_words/37>,
+        <http://stad.gent/id/concepts/gent_words/38>,
+        <http://stad.gent/id/concepts/gent_words/48>,
+        <http://stad.gent/id/concepts/gent_words/485>,
+        <http://stad.gent/id/concepts/gent_words/49>,
+        <http://stad.gent/id/concepts/gent_words/50>,
+        <http://stad.gent/id/concepts/gent_words/53>,
+        <http://stad.gent/id/concepts/gent_words/54>,
+        <http://stad.gent/id/concepts/gent_words/64>,
+        <http://stad.gent/id/concepts/gent_words/65>,
+        <http://stad.gent/id/concepts/gent_words/66>,
+        <http://stad.gent/id/concepts/gent_words/67>,
+        <https://stad.gent/id/concepts/gent_words/29> ;
+    skos:prefLabel "cultuur, sport en vrije tijd"@nl .
+
+<http://stad.gent/id/concepts/gent_words/58> a skos:Concept ;
+    dcterms:identifier 58 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/24> ;
+    skos:historyNote "Overgenomen uit de trefwoordenlijst van de ombudsdienst."@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/186>,
+        <http://stad.gent/id/concepts/gent_words/187>,
+        <http://stad.gent/id/concepts/gent_words/316>,
+        <http://stad.gent/id/concepts/gent_words/333>,
+        <http://stad.gent/id/concepts/gent_words/334>,
+        <http://stad.gent/id/concepts/gent_words/338>,
+        <http://stad.gent/id/concepts/gent_words/483>,
+        <http://stad.gent/id/concepts/gent_words/486>,
+        <http://stad.gent/id/concepts/gent_words/75>,
+        <http://stad.gent/id/concepts/gent_words/76>,
+        <http://stad.gent/id/concepts/gent_words/77>,
+        <http://stad.gent/id/concepts/gent_words/78>,
+        <http://stad.gent/id/concepts/gent_words/79>,
+        <http://stad.gent/id/concepts/gent_words/80>,
+        <http://stad.gent/id/concepts/gent_words/81>,
+        <http://stad.gent/id/concepts/gent_words/85>,
+        <http://stad.gent/id/concepts/gent_words/86>,
+        <http://stad.gent/id/concepts/gent_words/87>,
+        <http://stad.gent/id/concepts/gent_words/88> ;
+    skos:prefLabel "mobiliteit"@nl .
+
+<http://stad.gent/id/concepts/gent_words/235> a skos:Concept ;
+    dcterms:identifier 235 ;
+    skos:altLabel "stedelijke uitdagingen"@nl ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/28> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder het lemma 'complexe samenlevingsproblemen'. "@nl,
+        "Afkomstig uit een vorige versie van de stadsbrede taxonomie. Dit was toen opgenomen onder het lemma 'stedelijke uitdagingen'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/236>,
+        <http://stad.gent/id/concepts/gent_words/237>,
+        <http://stad.gent/id/concepts/gent_words/238>,
+        <http://stad.gent/id/concepts/gent_words/239>,
+        <http://stad.gent/id/concepts/gent_words/240>,
+        <http://stad.gent/id/concepts/gent_words/241>,
+        <http://stad.gent/id/concepts/gent_words/242>,
+        <http://stad.gent/id/concepts/gent_words/243>,
+        <http://stad.gent/id/concepts/gent_words/244>,
+        <http://stad.gent/id/concepts/gent_words/245>,
+        <http://stad.gent/id/concepts/gent_words/246>,
+        <http://stad.gent/id/concepts/gent_words/247>,
+        <http://stad.gent/id/concepts/gent_words/248>,
+        <http://stad.gent/id/concepts/gent_words/249>,
+        <http://stad.gent/id/concepts/gent_words/250>,
+        <http://stad.gent/id/concepts/gent_words/251>,
+        <http://stad.gent/id/concepts/gent_words/335>,
+        <http://stad.gent/id/concepts/gent_words/336>,
+        <http://stad.gent/id/concepts/gent_words/491>,
+        <http://stad.gent/id/concepts/gent_words/492> ;
+    skos:prefLabel "samenlevingsproblemen"@nl .
+
+<http://stad.gent/id/concepts/gent_words/74> a skos:Concept ;
+    dcterms:identifier 74 ;
+    skos:broader <https://stad.gent/id/concepts/gent_words/24> ;
+    skos:historyNote "Afkomstig uit de trefwoordenlijst van de ombudsdienst. Daar was dit opgenomen onder de term 'openbaar domein'. "@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/105>,
+        <http://stad.gent/id/concepts/gent_words/110>,
+        <http://stad.gent/id/concepts/gent_words/111>,
+        <http://stad.gent/id/concepts/gent_words/120>,
+        <http://stad.gent/id/concepts/gent_words/121>,
+        <http://stad.gent/id/concepts/gent_words/125>,
+        <http://stad.gent/id/concepts/gent_words/127>,
+        <http://stad.gent/id/concepts/gent_words/128>,
+        <http://stad.gent/id/concepts/gent_words/130>,
+        <http://stad.gent/id/concepts/gent_words/133>,
+        <http://stad.gent/id/concepts/gent_words/134>,
+        <http://stad.gent/id/concepts/gent_words/154>,
+        <http://stad.gent/id/concepts/gent_words/182>,
+        <http://stad.gent/id/concepts/gent_words/183>,
+        <http://stad.gent/id/concepts/gent_words/184>,
+        <http://stad.gent/id/concepts/gent_words/185>,
+        <http://stad.gent/id/concepts/gent_words/299>,
+        <http://stad.gent/id/concepts/gent_words/84>,
+        <http://stad.gent/id/concepts/gent_words/89>,
+        <http://stad.gent/id/concepts/gent_words/90>,
+        <http://stad.gent/id/concepts/gent_words/92> ;
+    skos:prefLabel "openbare weg en pleinen"@nl ;
+    skos:scopeNote "De term is vernauwd ten opzicht van de oorspronkelijke term 'openbaar domein'. Dit omdat de parken, groen, speelinfrastructuur in parken e.d.m. opgenomen is onder het thema 'groen en milieu'. "@nl .
+
+<https://stad.gent/id/concepts/gent_words/22> a skos:Concept ;
+    dcterms:identifier 22 ;
+    skos:broader <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote "Deze term is afkomstig uit de hoofdcategorisatie van de stadswebsite www.stad.gent"@nl ;
+    skos:inScheme <http://stad.gent/id/concepts/gent_words> ;
+    skos:narrower <http://stad.gent/id/concepts/gent_words/200>,
+        <http://stad.gent/id/concepts/gent_words/201>,
+        <http://stad.gent/id/concepts/gent_words/205>,
+        <http://stad.gent/id/concepts/gent_words/209>,
+        <http://stad.gent/id/concepts/gent_words/211>,
+        <http://stad.gent/id/concepts/gent_words/212>,
+        <http://stad.gent/id/concepts/gent_words/213>,
+        <http://stad.gent/id/concepts/gent_words/214>,
+        <http://stad.gent/id/concepts/gent_words/215>,
+        <http://stad.gent/id/concepts/gent_words/216>,
+        <http://stad.gent/id/concepts/gent_words/217>,
+        <http://stad.gent/id/concepts/gent_words/218>,
+        <http://stad.gent/id/concepts/gent_words/219>,
+        <http://stad.gent/id/concepts/gent_words/224>,
+        <http://stad.gent/id/concepts/gent_words/225>,
+        <http://stad.gent/id/concepts/gent_words/226>,
+        <http://stad.gent/id/concepts/gent_words/227>,
+        <http://stad.gent/id/concepts/gent_words/228>,
+        <http://stad.gent/id/concepts/gent_words/231>,
+        <http://stad.gent/id/concepts/gent_words/319>,
+        <http://stad.gent/id/concepts/gent_words/327>,
+        <http://stad.gent/id/concepts/gent_words/330>,
+        <http://stad.gent/id/concepts/gent_words/489>,
+        <http://stad.gent/id/concepts/gent_words/493> ;
+    skos:prefLabel "over Gent en het stadsbestuur"@nl .
+
+<http://stad.gent/id/concepts/gent_words> a skos:ConceptScheme ;
+    dcterms:identifier "gent_words" ;
+    skos:hasTopConcept <http://stad.gent/id/concepts/gent_words/328> ;
+    skos:historyNote """Deze trefwoordenlijst kwam in twee iteraties tot stand.
+
+In 2018 werd een eerste variant gecreëerd voor de CRM Beleidssignalen. 
+
+In 2020 werd deze aangevuld tot een trefwoordenlijst die ook gebruikt wordt voor de Kennisdatabank en klachtenbeheer. Daarvoor werd de lijst aangevuld en bijgestuurd op basis van respectievelijk de categoriestructuur van Gentinfo en de trefwoordenlijst van de ombudsdienst. """@nl,
+        "In 2021 werd deze lijst aangevuld met de trefwoorden voor de onthaalzone Onderwijs, Opvoeding en Jeugd. Deze trefwoorden worden gebruikt bij het CRM-systeem van deze zone en zullen gebruikt worden in de kennisfiches in de Kennisdatabank. "@nl ;
+    skos:note """Basislijst van trefwoorden waaruit de afnemende systemen een eigen selectie maken. Deze selecties worden aangeduid aan de hand van de collecties.
+
+- Gentinfo
+- CRM Beleidssignalen
+- Klachtenbeheer"""@nl ;
+    skos:prefLabel "Trefwoorden"@nl .
