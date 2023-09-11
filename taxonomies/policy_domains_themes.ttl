@@ -1,0 +1,631 @@
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vocab: <http://stad.gent/id/concepts/business_capabilities/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<http://stad.gent/id/concepts/business_capabilities> a skos:ConceptScheme;
+  dct:title "Business Capabilities";
+  skos:hasTopConcept vocab:concept_1, vocab:concept_6, vocab:concept_7, vocab:concept_8,
+    vocab:concept_12, vocab:concept_24, vocab:concept_78, vocab:concept_84, vocab:concept_88,
+    vocab:concept_105, vocab:concept_111 .
+
+vocab:concept_1 a skos:Concept;
+  skos:prefLabel "Richten en plannen";
+  skos:narrower vocab:concept_2, vocab:concept_3, vocab:concept_4, vocab:concept_5;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_2 a skos:Concept;
+  skos:prefLabel "Strategische cascade en projectportfolio";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_3 a skos:Concept;
+  skos:prefLabel "Planning en budget van mens en middelen";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_4 a skos:Concept;
+  skos:prefLabel "Geïntegreerde strategie met (externe) partners";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_5 a skos:Concept;
+  skos:prefLabel "Inspraak, participatie";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_6 a skos:Concept;
+  skos:prefLabel "Besluitvorming";
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_7 a skos:Concept;
+  skos:prefLabel "Samenwerkingsvorming";
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_8 a skos:Concept;
+  skos:prefLabel "Evaluatie en verantwoording";
+  skos:narrower vocab:concept_9, vocab:concept_10, vocab:concept_11;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_9 a skos:Concept;
+  skos:prefLabel "Audit";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_10 a skos:Concept;
+  skos:prefLabel "Monitoring van data en analyse";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_11 a skos:Concept;
+  skos:prefLabel "Verantwoording en evaluatie van beleid";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_12 a skos:Concept;
+  skos:prefLabel "Ontwikkelen";
+  skos:narrower vocab:concept_13, vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_13 a skos:Concept;
+  skos:prefLabel "Ontwikkelen voorzieningen, kaders en reglementen";
+  skos:broader vocab:concept_12;
+  skos:narrower vocab:concept_14, vocab:concept_15, vocab:concept_16;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_14 a skos:Concept;
+  skos:prefLabel "Verordeningen en beleidskaders";
+  skos:broader vocab:concept_13;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_15 a skos:Concept;
+  skos:prefLabel "Producten en diensten";
+  skos:broader vocab:concept_13;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_16 a skos:Concept;
+  skos:prefLabel "Reglementen";
+  skos:broader vocab:concept_13;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_17 a skos:Concept;
+  skos:prefLabel "Ontwikkelen ruimte en leefomgeving";
+  skos:broader vocab:concept_12;
+  skos:narrower vocab:concept_18, vocab:concept_19, vocab:concept_20, vocab:concept_21,
+    vocab:concept_22, vocab:concept_23;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_18 a skos:Concept;
+  skos:prefLabel "Ruimtelijke planning";
+  skos:broader vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_19 a skos:Concept;
+  skos:prefLabel "Kaders en richtlijnen";
+  skos:broader vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_20 a skos:Concept;
+  skos:prefLabel "Erfgoed- en monumentenbeleid";
+  skos:broader vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_21 a skos:Concept;
+  skos:prefLabel "Gebiedsontwikkeling";
+  skos:broader vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_22 a skos:Concept;
+  skos:prefLabel "(Leef)milieu, Klimaat en Energiebeleid";
+  skos:broader vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_23 a skos:Concept;
+  skos:prefLabel "Mobiliteitsbeleid";
+  skos:broader vocab:concept_17;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_24 a skos:Concept;
+  skos:prefLabel "Uitvoeren";
+  skos:narrower vocab:concept_25, vocab:concept_28, vocab:concept_30, vocab:concept_32,
+    vocab:concept_38, vocab:concept_41, vocab:concept_46, vocab:concept_51, vocab:concept_61,
+    vocab:concept_68, vocab:concept_75;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_25 a skos:Concept;
+  skos:prefLabel "Informeren";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_26, vocab:concept_27;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_26 a skos:Concept;
+  skos:prefLabel "Voorlichten, informeren en sensibiliseren";
+  skos:broader vocab:concept_25;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_27 a skos:Concept;
+  skos:prefLabel "Vraagbehandeling";
+  skos:broader vocab:concept_25;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_28 a skos:Concept;
+  skos:prefLabel "Reservaties, inschrijvingen en inkomende betalingen";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_29;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_29 a skos:Concept;
+  skos:prefLabel "Administratieve producten en documenten";
+  skos:broader vocab:concept_28;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_30 a skos:Concept;
+  skos:prefLabel "Onthaal en geleiding van klanten";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_31;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_31 a skos:Concept;
+  skos:prefLabel "Vergunning of ontheffingen";
+  skos:broader vocab:concept_30;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_32 a skos:Concept;
+  skos:prefLabel "Verstrekken producten en diensten";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_33, vocab:concept_34, vocab:concept_35, vocab:concept_36,
+    vocab:concept_37;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_33 a skos:Concept;
+  skos:prefLabel "Subsidieverstrekking";
+  skos:broader vocab:concept_32;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_34 a skos:Concept;
+  skos:prefLabel "Ondersteuningsproducten";
+  skos:broader vocab:concept_32;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_35 a skos:Concept;
+  skos:prefLabel "Melding of klachtbehandeling";
+  skos:broader vocab:concept_32;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_36 a skos:Concept;
+  skos:prefLabel "Begeleiding en coaching bij opzet van een initiatief";
+  skos:broader vocab:concept_32;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_37 a skos:Concept;
+  skos:prefLabel "Adviesverlening";
+  skos:broader vocab:concept_32;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_38 a skos:Concept;
+  skos:prefLabel "Organiseren";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_39, vocab:concept_40;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_39 a skos:Concept;
+  skos:prefLabel "Verkiezingen";
+  skos:broader vocab:concept_38;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_40 a skos:Concept;
+  skos:prefLabel "Evenementen, feesten en plechtigheden";
+  skos:broader vocab:concept_38;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_41 a skos:Concept;
+  skos:prefLabel "Exploiteren";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_42, vocab:concept_43, vocab:concept_44, vocab:concept_45;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_42 a skos:Concept;
+  skos:prefLabel "Gemeentelijke voorzieningen";
+  skos:broader vocab:concept_41;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_43 a skos:Concept;
+  skos:prefLabel "Verhuring en ontlenen van goederen en producten";
+  skos:broader vocab:concept_41;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_44 a skos:Concept;
+  skos:prefLabel "Handelsgoederen en diensten";
+  skos:broader vocab:concept_41;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_45 a skos:Concept;
+  skos:prefLabel "Exploitatie vastgoed";
+  skos:broader vocab:concept_41;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_46 a skos:Concept;
+  skos:prefLabel "Samenwerken in de keten";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_47, vocab:concept_48, vocab:concept_49, vocab:concept_50;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_47 a skos:Concept;
+  skos:prefLabel "Ondersteuning/diensten/ informatie aan derden";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_48 a skos:Concept;
+  skos:prefLabel "Regievoering tov derden";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_49 a skos:Concept;
+  skos:prefLabel "Vrijwilligerswerking en ondersteuning mantelzorgers";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_50 a skos:Concept;
+  skos:prefLabel "Netwerken en overleg";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_51 a skos:Concept;
+  skos:prefLabel "Inrichten en beheer ruimte, erfgoed en leefomgeving";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_52, vocab:concept_53, vocab:concept_54, vocab:concept_55,
+    vocab:concept_56, vocab:concept_57, vocab:concept_58, vocab:concept_59, vocab:concept_60;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_52 a skos:Concept;
+  skos:prefLabel "Onderhoud en repareren openbare ruimte";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_53 a skos:Concept;
+  skos:prefLabel "Mobiliteit en verkeer";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_54 a skos:Concept;
+  skos:prefLabel "Dierenbescherming";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_55 a skos:Concept;
+  skos:prefLabel "Realiseren openbare ruimte";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_56 a skos:Concept;
+  skos:prefLabel "Waterbeheer, regen- en afvalwater";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_57 a skos:Concept;
+  skos:prefLabel "Erfgoedbeheer en bescherming";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_58 a skos:Concept;
+  skos:prefLabel "Inname openbaar domein";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_59 a skos:Concept;
+  skos:prefLabel "Realisatie en beheer leefomgeving en klimaatrobuuste Stad";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_60 a skos:Concept;
+  skos:prefLabel "Afvalophaling en verwerking";
+  skos:broader vocab:concept_51;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_61 a skos:Concept;
+  skos:prefLabel "Ondersteunen welzijn, leren en wonen";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_62, vocab:concept_63, vocab:concept_64, vocab:concept_65,
+    vocab:concept_66, vocab:concept_67;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_62 a skos:Concept;
+  skos:prefLabel "Thematisch en financiële hulpverlening";
+  skos:broader vocab:concept_61;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_63 a skos:Concept;
+  skos:prefLabel "Sociaal, tijdelijk en aangepast wonen";
+  skos:broader vocab:concept_61;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_64 a skos:Concept;
+  skos:prefLabel "Gezondheidspromotie en ziektepreventie";
+  skos:broader vocab:concept_61;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_65 a skos:Concept;
+  skos:prefLabel "Aanbod B14 activiteiten voor (doel)groepen";
+  skos:broader vocab:concept_61;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_66 a skos:Concept;
+  skos:prefLabel "Opvang voor kinderen";
+  skos:broader vocab:concept_61;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_67 a skos:Concept;
+  skos:prefLabel "Onderwijs";
+  skos:broader vocab:concept_61;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_68 a skos:Concept;
+  skos:prefLabel "(Sociale) economie ondersteunen";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_69, vocab:concept_70, vocab:concept_71, vocab:concept_72,
+    vocab:concept_73, vocab:concept_74;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_69 a skos:Concept;
+  skos:prefLabel "Activering, sociale tewerkstelling en arbeidsmarkbemiddeling";
+  skos:broader vocab:concept_68;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_70 a skos:Concept;
+  skos:prefLabel "Stimuleren ondernemerschap";
+  skos:broader vocab:concept_68;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_71 a skos:Concept;
+  skos:prefLabel "Faciliteren ondernemers";
+  skos:broader vocab:concept_68;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_72 a skos:Concept;
+  skos:prefLabel "Opschalen economie";
+  skos:broader vocab:concept_68;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_73 a skos:Concept;
+  skos:prefLabel "Werkgelegenheid stimuleren";
+  skos:broader vocab:concept_68;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_74 a skos:Concept;
+  skos:prefLabel "Toerisme faciliteren";
+  skos:broader vocab:concept_68;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_75 a skos:Concept;
+  skos:prefLabel "Openbare hulp- en veiligheidsdiensten";
+  skos:broader vocab:concept_24;
+  skos:narrower vocab:concept_76, vocab:concept_77;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_76 a skos:Concept;
+  skos:prefLabel "Verlenen van hulp in nood";
+  skos:broader vocab:concept_75;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_77 a skos:Concept;
+  skos:prefLabel "Openbare orde en interventies van algemeen nut";
+  skos:broader vocab:concept_75;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_78 a skos:Concept;
+  skos:prefLabel "Handhaven";
+  skos:narrower vocab:concept_79, vocab:concept_80, vocab:concept_81, vocab:concept_82,
+    vocab:concept_83;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_79 a skos:Concept;
+  skos:prefLabel "Toezicht";
+  skos:broader vocab:concept_78;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_80 a skos:Concept;
+  skos:prefLabel "Bemiddeling";
+  skos:broader vocab:concept_78;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_81 a skos:Concept;
+  skos:prefLabel "Vaststellen en opsporing";
+  skos:broader vocab:concept_78;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_82 a skos:Concept;
+  skos:prefLabel "Bestuurlijke preventie";
+  skos:broader vocab:concept_78;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_83 a skos:Concept;
+  skos:prefLabel "Sancties uitvoeren";
+  skos:broader vocab:concept_78;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_84 a skos:Concept;
+  skos:prefLabel "Nazorgen";
+  skos:narrower vocab:concept_85, vocab:concept_86, vocab:concept_87;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_85 a skos:Concept;
+  skos:prefLabel "Bezwaren";
+  skos:broader vocab:concept_84;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_86 a skos:Concept;
+  skos:prefLabel "Attenderen op een recht of dienst";
+  skos:broader vocab:concept_84;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_87 a skos:Concept;
+  skos:prefLabel "Verzoekschriften";
+  skos:broader vocab:concept_84;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_88 a skos:Concept;
+  skos:prefLabel "Beheren en ontwikkelen";
+  skos:narrower vocab:concept_89, vocab:concept_90, vocab:concept_91, vocab:concept_92,
+    vocab:concept_96, vocab:concept_97, vocab:concept_98, vocab:concept_99, vocab:concept_100,
+    vocab:concept_101, vocab:concept_102, vocab:concept_103, vocab:concept_104;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_89 a skos:Concept;
+  skos:prefLabel "Human resources management";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_90 a skos:Concept;
+  skos:prefLabel "Preventie en veiligheid";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_91 a skos:Concept;
+  skos:prefLabel "Financieel management";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_92 a skos:Concept;
+  skos:prefLabel "Facilitair beheer";
+  skos:broader vocab:concept_88;
+  skos:narrower vocab:concept_93, vocab:concept_94, vocab:concept_95;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_93 a skos:Concept;
+  skos:prefLabel "Materialen en vlootbeheer";
+  skos:broader vocab:concept_92;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_94 a skos:Concept;
+  skos:prefLabel "Magazijn- en depotbeheer";
+  skos:broader vocab:concept_92;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_95 a skos:Concept;
+  skos:prefLabel "Huisvesting";
+  skos:broader vocab:concept_92;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_96 a skos:Concept;
+  skos:prefLabel "Organisatieontwikkeling en procesverbeteringen";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_97 a skos:Concept;
+  skos:prefLabel "Informatie en archiefbeheer";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_98 a skos:Concept;
+  skos:prefLabel "Informatisering";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_99 a skos:Concept;
+  skos:prefLabel "Data- en informatiemanagement";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_100 a skos:Concept;
+  skos:prefLabel "Automatisering";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_101 a skos:Concept;
+  skos:prefLabel "IT Portfoliovorming";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_102 a skos:Concept;
+  skos:prefLabel "Ontwikkeling IT";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_103 a skos:Concept;
+  skos:prefLabel "IT Product";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_104 a skos:Concept;
+  skos:prefLabel "Detecteren en corrigeren IT";
+  skos:broader vocab:concept_88;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_105 a skos:Concept;
+  skos:prefLabel "Uitvoeren ondersteunende Capabilities";
+  skos:narrower vocab:concept_106, vocab:concept_107, vocab:concept_108, vocab:concept_109,
+    vocab:concept_110;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_106 a skos:Concept;
+  skos:prefLabel "Administratieve ondersteuning";
+  skos:broader vocab:concept_105;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_107 a skos:Concept;
+  skos:prefLabel "(Interne) communicatie";
+  skos:broader vocab:concept_105;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_108 a skos:Concept;
+  skos:prefLabel "Projectmanagement";
+  skos:broader vocab:concept_105;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_109 a skos:Concept;
+  skos:prefLabel "Inkoop en contractmanagement";
+  skos:broader vocab:concept_105;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_110 a skos:Concept;
+  skos:prefLabel "Juridische ondersteuning";
+  skos:broader vocab:concept_105;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_111 a skos:Concept;
+  skos:prefLabel "Bewaking";
+  skos:narrower vocab:concept_112, vocab:concept_113, vocab:concept_114;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities>;
+  skos:topConceptOf <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_112 a skos:Concept;
+  skos:prefLabel "Organisatie beheersing";
+  skos:broader vocab:concept_111;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_113 a skos:Concept;
+  skos:prefLabel "Compliance management";
+  skos:broader vocab:concept_111;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
+
+vocab:concept_114 a skos:Concept;
+  skos:prefLabel "Samenwerkingsbewaking";
+  skos:broader vocab:concept_111;
+  skos:inScheme <http://stad.gent/id/concepts/business_capabilities> .
