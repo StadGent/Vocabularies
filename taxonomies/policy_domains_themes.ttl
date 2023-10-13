@@ -11,7 +11,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix vocab: <http://stad.gent/id/concepts/policy_domains_themes/> .
+@prefix vocab: <http://stad.gent/id/concepts/policy_domains_and_themes> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -20,612 +20,693 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
-<http://stad.gent/id/concepts/policy_domains_themes> a skos:ConceptScheme;
-  dct:title "Business Capabilities";
-  skos:hasTopConcept vocab:concept_1, vocab:concept_6, vocab:concept_7, vocab:concept_8,
-    vocab:concept_12, vocab:concept_24, vocab:concept_78, vocab:concept_84, vocab:concept_88,
-    vocab:concept_105, vocab:concept_111 .
-
-vocab:concept_1 a skos:Concept;
-  skos:prefLabel "Richten en plannen";
-  skos:narrower vocab:concept_2, vocab:concept_3, vocab:concept_4, vocab:concept_5;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_2 a skos:Concept;
-  skos:prefLabel "Strategische cascade en projectportfolio";
-  skos:broader vocab:concept_1;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_3 a skos:Concept;
-  skos:prefLabel "Planning en budget van mens en middelen";
-  skos:broader vocab:concept_1;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_4 a skos:Concept;
-  skos:prefLabel "Geïntegreerde strategie met (externe) partners";
-  skos:broader vocab:concept_1;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_5 a skos:Concept;
-  skos:prefLabel "Inspraak, participatie";
-  skos:broader vocab:concept_1;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_6 a skos:Concept;
-  skos:prefLabel "Besluitvorming";
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_7 a skos:Concept;
-  skos:prefLabel "Samenwerkingsvorming";
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_8 a skos:Concept;
-  skos:prefLabel "Evaluatie en verantwoording";
-  skos:narrower vocab:concept_9, vocab:concept_10, vocab:concept_11;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_9 a skos:Concept;
-  skos:prefLabel "Audit";
-  skos:broader vocab:concept_8;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_10 a skos:Concept;
-  skos:prefLabel "Monitoring van data en analyse";
-  skos:broader vocab:concept_8;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_11 a skos:Concept;
-  skos:prefLabel "Verantwoording en evaluatie van beleid";
-  skos:broader vocab:concept_8;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_12 a skos:Concept;
-  skos:prefLabel "Ontwikkelen";
-  skos:narrower vocab:concept_13, vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_13 a skos:Concept;
-  skos:prefLabel "Ontwikkelen voorzieningen, kaders en reglementen";
-  skos:broader vocab:concept_12;
-  skos:narrower vocab:concept_14, vocab:concept_15, vocab:concept_16;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_14 a skos:Concept;
-  skos:prefLabel "Verordeningen en beleidskaders";
-  skos:broader vocab:concept_13;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_15 a skos:Concept;
-  skos:prefLabel "Producten en diensten";
-  skos:broader vocab:concept_13;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_16 a skos:Concept;
-  skos:prefLabel "Reglementen";
-  skos:broader vocab:concept_13;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_17 a skos:Concept;
-  skos:prefLabel "Ontwikkelen ruimte en leefomgeving";
-  skos:broader vocab:concept_12;
-  skos:narrower vocab:concept_18, vocab:concept_19, vocab:concept_20, vocab:concept_21,
-    vocab:concept_22, vocab:concept_23;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_18 a skos:Concept;
-  skos:prefLabel "Ruimtelijke planning";
-  skos:broader vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_19 a skos:Concept;
-  skos:prefLabel "Kaders en richtlijnen";
-  skos:broader vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_20 a skos:Concept;
-  skos:prefLabel "Erfgoed- en monumentenbeleid";
-  skos:broader vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_21 a skos:Concept;
-  skos:prefLabel "Gebiedsontwikkeling";
-  skos:broader vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_22 a skos:Concept;
-  skos:prefLabel "(Leef)milieu, Klimaat en Energiebeleid";
-  skos:broader vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_23 a skos:Concept;
-  skos:prefLabel "Mobiliteitsbeleid";
-  skos:broader vocab:concept_17;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_24 a skos:Concept;
-  skos:prefLabel "Uitvoeren";
-  skos:narrower vocab:concept_25, vocab:concept_28, vocab:concept_30, vocab:concept_32,
-    vocab:concept_38, vocab:concept_41, vocab:concept_46, vocab:concept_51, vocab:concept_61,
-    vocab:concept_68, vocab:concept_75;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_25 a skos:Concept;
-  skos:prefLabel "Informeren";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_26, vocab:concept_27;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_26 a skos:Concept;
-  skos:prefLabel "Voorlichten, informeren en sensibiliseren";
-  skos:broader vocab:concept_25;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_27 a skos:Concept;
-  skos:prefLabel "Vraagbehandeling";
-  skos:broader vocab:concept_25;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_28 a skos:Concept;
-  skos:prefLabel "Reservaties, inschrijvingen en inkomende betalingen";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_29;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_29 a skos:Concept;
-  skos:prefLabel "Administratieve producten en documenten";
-  skos:broader vocab:concept_28;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_30 a skos:Concept;
-  skos:prefLabel "Onthaal en geleiding van klanten";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_31;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_31 a skos:Concept;
-  skos:prefLabel "Vergunning of ontheffingen";
-  skos:broader vocab:concept_30;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_32 a skos:Concept;
-  skos:prefLabel "Verstrekken producten en diensten";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_33, vocab:concept_34, vocab:concept_35, vocab:concept_36,
-    vocab:concept_37;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_33 a skos:Concept;
-  skos:prefLabel "Subsidieverstrekking";
-  skos:broader vocab:concept_32;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_34 a skos:Concept;
-  skos:prefLabel "Ondersteuningsproducten";
-  skos:broader vocab:concept_32;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_35 a skos:Concept;
-  skos:prefLabel "Melding of klachtbehandeling";
-  skos:broader vocab:concept_32;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_36 a skos:Concept;
-  skos:prefLabel "Begeleiding en coaching bij opzet van een initiatief";
-  skos:broader vocab:concept_32;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_37 a skos:Concept;
-  skos:prefLabel "Adviesverlening";
-  skos:broader vocab:concept_32;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_38 a skos:Concept;
-  skos:prefLabel "Organiseren";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_39, vocab:concept_40;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_39 a skos:Concept;
-  skos:prefLabel "Verkiezingen";
-  skos:broader vocab:concept_38;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_40 a skos:Concept;
-  skos:prefLabel "Evenementen, feesten en plechtigheden";
-  skos:broader vocab:concept_38;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_41 a skos:Concept;
-  skos:prefLabel "Exploiteren";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_42, vocab:concept_43, vocab:concept_44, vocab:concept_45;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_42 a skos:Concept;
-  skos:prefLabel "Gemeentelijke voorzieningen";
-  skos:broader vocab:concept_41;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_43 a skos:Concept;
-  skos:prefLabel "Verhuring en ontlenen van goederen en producten";
-  skos:broader vocab:concept_41;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_44 a skos:Concept;
-  skos:prefLabel "Handelsgoederen en diensten";
-  skos:broader vocab:concept_41;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_45 a skos:Concept;
-  skos:prefLabel "Exploitatie vastgoed";
-  skos:broader vocab:concept_41;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_46 a skos:Concept;
-  skos:prefLabel "Samenwerken in de keten";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_47, vocab:concept_48, vocab:concept_49, vocab:concept_50;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_47 a skos:Concept;
-  skos:prefLabel "Ondersteuning/diensten/ informatie aan derden";
-  skos:broader vocab:concept_46;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_48 a skos:Concept;
-  skos:prefLabel "Regievoering tov derden";
-  skos:broader vocab:concept_46;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_49 a skos:Concept;
-  skos:prefLabel "Vrijwilligerswerking en ondersteuning mantelzorgers";
-  skos:broader vocab:concept_46;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_50 a skos:Concept;
-  skos:prefLabel "Netwerken en overleg";
-  skos:broader vocab:concept_46;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_51 a skos:Concept;
-  skos:prefLabel "Inrichten en beheer ruimte, erfgoed en leefomgeving";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_52, vocab:concept_53, vocab:concept_54, vocab:concept_55,
-    vocab:concept_56, vocab:concept_57, vocab:concept_58, vocab:concept_59, vocab:concept_60;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_52 a skos:Concept;
-  skos:prefLabel "Onderhoud en repareren openbare ruimte";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_53 a skos:Concept;
-  skos:prefLabel "Mobiliteit en verkeer";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_54 a skos:Concept;
-  skos:prefLabel "Dierenbescherming";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_55 a skos:Concept;
-  skos:prefLabel "Realiseren openbare ruimte";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_56 a skos:Concept;
-  skos:prefLabel "Waterbeheer, regen- en afvalwater";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_57 a skos:Concept;
-  skos:prefLabel "Erfgoedbeheer en bescherming";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_58 a skos:Concept;
-  skos:prefLabel "Inname openbaar domein";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_59 a skos:Concept;
-  skos:prefLabel "Realisatie en beheer leefomgeving en klimaatrobuuste Stad";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_60 a skos:Concept;
-  skos:prefLabel "Afvalophaling en verwerking";
-  skos:broader vocab:concept_51;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_61 a skos:Concept;
-  skos:prefLabel "Ondersteunen welzijn, leren en wonen";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_62, vocab:concept_63, vocab:concept_64, vocab:concept_65,
-    vocab:concept_66, vocab:concept_67;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_62 a skos:Concept;
-  skos:prefLabel "Thematisch en financiële hulpverlening";
-  skos:broader vocab:concept_61;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_63 a skos:Concept;
-  skos:prefLabel "Sociaal, tijdelijk en aangepast wonen";
-  skos:broader vocab:concept_61;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
-
-vocab:concept_64 a skos:Concept;
+<http://stad.gent/id/concepts/policy_domains_and_themes> a skos:ConceptScheme;
+  dct:title "Beleidsdomeinen en beleidsthema's";
+  skos:hasTopConcept <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD101>,
+    <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD102>, <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD103>,
+    <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD104>, <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD106> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD101> a skos:Concept;
+  skos:prefLabel "Algemene Financiering";
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_10> a skos:Concept;
+  skos:prefLabel "Algemene overdrachten tussen de verschillende bestuurlijke niveaus";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_10>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_10>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_20> a skos:Concept;
+  skos:prefLabel "Fiscale aangelegenheden";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_20>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_20>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_30> a skos:Concept;
+  skos:prefLabel "Financiële aangelegenheden";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_30>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_30>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_40> a skos:Concept;
+  skos:prefLabel "Transacties in verband met de openbare schuld";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_40>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_40>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_50> a skos:Concept;
+  skos:prefLabel "Patrimonium zonder maatschappelijk doel";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_50>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_50>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_90> a skos:Concept;
+  skos:prefLabel "Overige algemene financiering";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_90>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_90>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD102> a skos:Concept;
+  skos:prefLabel "Welzijn en samenleven";
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_400> a skos:Concept;
+  skos:prefLabel "Politiediensten";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_400>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_400>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_410> a skos:Concept;
+  skos:prefLabel "Brandweer";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_410>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_410>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_420> a skos:Concept;
+  skos:prefLabel "Dienst 100";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_420>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_420>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_480> a skos:Concept;
+  skos:prefLabel "Bestuurlijke preventie (incl.GAS)";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_480>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_480>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_490> a skos:Concept;
+  skos:prefLabel "Overige elementen van openbare orde en veiligheid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_490>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_490>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_900> a skos:Concept;
+  skos:prefLabel "Sociale bijstand";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_900>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_900>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_902> a skos:Concept;
+  skos:prefLabel "Integratie van personen met vreemde herkomst";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_902>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_902>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_903> a skos:Concept;
+  skos:prefLabel "Lokale opvanginitiatieven voor asielzoekers";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_903>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_903>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_904> a skos:Concept;
+  skos:prefLabel "Activering van tewerkstelling";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_904>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_904>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_905> a skos:Concept;
+  skos:prefLabel "Dienst voor juridische informatie en advies";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_905>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_905>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_909> a skos:Concept;
+  skos:prefLabel "Overige verrichtingen inzake sociaal beleid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_909>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_909>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_911> a skos:Concept;
+  skos:prefLabel "Diensten en voorzieningen voor personen met een handicap";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_911>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_911>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_930> a skos:Concept;
+  skos:prefLabel "Sociale huisvesting";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_930>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_930>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_950> a skos:Concept;
+  skos:prefLabel "Ouderenwoningen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_950>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_950>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_951> a skos:Concept;
+  skos:prefLabel "Dienstencentra";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_951>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_951>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_952> a skos:Concept;
+  skos:prefLabel "Assistentiewoningen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_952>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_952>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_953> a skos:Concept;
+  skos:prefLabel "Woon‐ en zorgcentra";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_953>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_953>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_954> a skos:Concept;
+  skos:prefLabel "Dagverzorgcentra";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_954>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_954>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_959> a skos:Concept;
+  skos:prefLabel "Overige verrichtingen betreffende ouderen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_959>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_959>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_982> a skos:Concept;
+  skos:prefLabel "Ziekenhuizen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_982>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_982>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_985> a skos:Concept;
   skos:prefLabel "Gezondheidspromotie en ziektepreventie";
-  skos:broader vocab:concept_61;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_985>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_985>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_65 a skos:Concept;
-  skos:prefLabel "Aanbod B14 activiteiten voor (doel)groepen";
-  skos:broader vocab:concept_61;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_986> a skos:Concept;
+  skos:prefLabel "Eerstelijnsgezondheidszorg";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_986>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_986>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_66 a skos:Concept;
-  skos:prefLabel "Opvang voor kinderen";
-  skos:broader vocab:concept_61;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_989> a skos:Concept;
+  skos:prefLabel "Overige dienstverlening inzake volksgezondheid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_989>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_989>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_67 a skos:Concept;
-  skos:prefLabel "Onderwijs";
-  skos:broader vocab:concept_61;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD103> a skos:Concept;
+  skos:prefLabel "Woonstad en ruimte";
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_68 a skos:Concept;
-  skos:prefLabel "(Sociale) economie ondersteunen";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_69, vocab:concept_70, vocab:concept_71, vocab:concept_72,
-    vocab:concept_73, vocab:concept_74;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_200> a skos:Concept;
+  skos:prefLabel "Wegen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_200>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_200>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_69 a skos:Concept;
-  skos:prefLabel "Activering, sociale tewerkstelling en arbeidsmarkbemiddeling";
-  skos:broader vocab:concept_68;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_210> a skos:Concept;
+  skos:prefLabel "Openbaar vervoer";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_210>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_210>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_70 a skos:Concept;
-  skos:prefLabel "Stimuleren ondernemerschap";
-  skos:broader vocab:concept_68;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_220> a skos:Concept;
+  skos:prefLabel "Parkeren";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_220>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_220>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_71 a skos:Concept;
-  skos:prefLabel "Faciliteren ondernemers";
-  skos:broader vocab:concept_68;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_290> a skos:Concept;
+  skos:prefLabel "Overige mobiliteit en verkeer";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_290>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_290>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_72 a skos:Concept;
-  skos:prefLabel "Opschalen economie";
-  skos:broader vocab:concept_68;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_300> a skos:Concept;
+  skos:prefLabel "Ophalen en verwerken van huishoudelijk afval";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_300>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_300>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_73 a skos:Concept;
-  skos:prefLabel "Werkgelegenheid stimuleren";
-  skos:broader vocab:concept_68;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_309> a skos:Concept;
+  skos:prefLabel "Overig afval‐ en materialenbeheer";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_309>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_309>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_74 a skos:Concept;
-  skos:prefLabel "Toerisme faciliteren";
-  skos:broader vocab:concept_68;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_310> a skos:Concept;
+  skos:prefLabel "Beheer van regen‐ en afvalwater";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_310>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_310>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_75 a skos:Concept;
-  skos:prefLabel "Openbare hulp- en veiligheidsdiensten";
-  skos:broader vocab:concept_24;
-  skos:narrower vocab:concept_76, vocab:concept_77;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_319> a skos:Concept;
+  skos:prefLabel "Overig waterbeheer";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_319>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_319>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_76 a skos:Concept;
-  skos:prefLabel "Verlenen van hulp in nood";
-  skos:broader vocab:concept_75;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_320> a skos:Concept;
+  skos:prefLabel "Sanering van bodemverontreiniging";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_320>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_320>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_77 a skos:Concept;
-  skos:prefLabel "Openbare orde en interventies van algemeen nut";
-  skos:broader vocab:concept_75;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_329> a skos:Concept;
+  skos:prefLabel "Overige vermindering van milieuverontreiniging";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_329>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_329>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_78 a skos:Concept;
-  skos:prefLabel "Handhaven";
-  skos:narrower vocab:concept_79, vocab:concept_80, vocab:concept_81, vocab:concept_82,
-    vocab:concept_83;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_340> a skos:Concept;
+  skos:prefLabel "Aankoop, inrichting en beheer van natuur, groen en bos";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_340>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_340>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_79 a skos:Concept;
-  skos:prefLabel "Toezicht";
-  skos:broader vocab:concept_78;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_349> a skos:Concept;
+  skos:prefLabel "Overige bescherming van biodiversiteit, landschappen en bodem";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_349>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_349>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_80 a skos:Concept;
-  skos:prefLabel "Bemiddeling";
-  skos:broader vocab:concept_78;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_350> a skos:Concept;
+  skos:prefLabel "Klimaat en energie";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_350>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_350>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_81 a skos:Concept;
-  skos:prefLabel "Vaststellen en opsporing";
-  skos:broader vocab:concept_78;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_380> a skos:Concept;
+  skos:prefLabel "Participatie en sensibilisatie";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_380>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_380>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_82 a skos:Concept;
-  skos:prefLabel "Bestuurlijke preventie";
-  skos:broader vocab:concept_78;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_381> a skos:Concept;
+  skos:prefLabel "Geïntegreerde milieuprojecten";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_381>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_381>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_83 a skos:Concept;
-  skos:prefLabel "Sancties uitvoeren";
-  skos:broader vocab:concept_78;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_390> a skos:Concept;
+  skos:prefLabel "Overige milieubescherming";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_390>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_390>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_84 a skos:Concept;
-  skos:prefLabel "Nazorgen";
-  skos:narrower vocab:concept_85, vocab:concept_86, vocab:concept_87;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_470> a skos:Concept;
+  skos:prefLabel "Dierenbescherming";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_470>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_470>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_85 a skos:Concept;
-  skos:prefLabel "Bezwaren";
-  skos:broader vocab:concept_84;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_600> a skos:Concept;
+  skos:prefLabel "Ruimtelijke planning";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_600>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_600>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_86 a skos:Concept;
-  skos:prefLabel "Attenderen op een recht of dienst";
-  skos:broader vocab:concept_84;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_610> a skos:Concept;
+  skos:prefLabel "Gebiedsontwikkeling";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_610>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_610>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_87 a skos:Concept;
-  skos:prefLabel "Verzoekschriften";
-  skos:broader vocab:concept_84;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_620> a skos:Concept;
+  skos:prefLabel "Grondbeleid voor wonen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_620>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_620>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_88 a skos:Concept;
-  skos:prefLabel "Beheren en ontwikkelen";
-  skos:narrower vocab:concept_89, vocab:concept_90, vocab:concept_91, vocab:concept_92,
-    vocab:concept_96, vocab:concept_97, vocab:concept_98, vocab:concept_99, vocab:concept_100,
-    vocab:concept_101, vocab:concept_102, vocab:concept_103, vocab:concept_104;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_621> a skos:Concept;
+  skos:prefLabel "Bestrijding van krotwoningen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_621>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_621>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_89 a skos:Concept;
-  skos:prefLabel "Human resources management";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_622> a skos:Concept;
+  skos:prefLabel "Woonwagenterreinen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_622>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_622>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_90 a skos:Concept;
-  skos:prefLabel "Preventie en veiligheid";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_629> a skos:Concept;
+  skos:prefLabel "Overig woonbeleid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_629>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_629>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_91 a skos:Concept;
-  skos:prefLabel "Financieel management";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_630> a skos:Concept;
+  skos:prefLabel "Watervoorziening";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_630>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_630>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_92 a skos:Concept;
-  skos:prefLabel "Facilitair beheer";
-  skos:broader vocab:concept_88;
-  skos:narrower vocab:concept_93, vocab:concept_94, vocab:concept_95;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_640> a skos:Concept;
+  skos:prefLabel "Elektriciteitsvoorziening";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_640>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_640>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_93 a skos:Concept;
-  skos:prefLabel "Materialen en vlootbeheer";
-  skos:broader vocab:concept_92;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_650> a skos:Concept;
+  skos:prefLabel "Gasvoorziening";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_650>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_650>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_94 a skos:Concept;
-  skos:prefLabel "Magazijn- en depotbeheer";
-  skos:broader vocab:concept_92;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_670> a skos:Concept;
+  skos:prefLabel "Straatverlichting";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_670>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_670>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_95 a skos:Concept;
-  skos:prefLabel "Huisvesting";
-  skos:broader vocab:concept_92;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_680> a skos:Concept;
+  skos:prefLabel "Groene ruimte";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_680>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_680>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_96 a skos:Concept;
-  skos:prefLabel "Organisatieontwikkeling en procesverbeteringen";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_720> a skos:Concept;
+  skos:prefLabel "Monumentenzorg";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_720>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_720>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_97 a skos:Concept;
-  skos:prefLabel "Informatie en archiefbeheer";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_990> a skos:Concept;
+  skos:prefLabel "Begraafplaatsen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_990>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_990>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_98 a skos:Concept;
-  skos:prefLabel "Informatisering";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD104> a skos:Concept;
+  skos:prefLabel "Ondernemende en werkende stad";
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_99 a skos:Concept;
-  skos:prefLabel "Data- en informatiemanagement";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_500> a skos:Concept;
+  skos:prefLabel "Handel en middenstand";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_500>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_500>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_100 a skos:Concept;
-  skos:prefLabel "Automatisering";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_510> a skos:Concept;
+  skos:prefLabel "Nijverheid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_510>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_510>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_101 a skos:Concept;
-  skos:prefLabel "IT Portfoliovorming";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_530> a skos:Concept;
+  skos:prefLabel "Land‐, tuin‐ en bosbouw";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_530>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_530>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_102 a skos:Concept;
-  skos:prefLabel "Ontwikkeling IT";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_550> a skos:Concept;
+  skos:prefLabel "Werkgelegenheid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_550>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_550>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_103 a skos:Concept;
-  skos:prefLabel "IT Product";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_590> a skos:Concept;
+  skos:prefLabel "Overige economische zaken";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_590>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_590>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_104 a skos:Concept;
-  skos:prefLabel "Detecteren en corrigeren IT";
-  skos:broader vocab:concept_88;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD105> a skos:Concept;
+  skos:prefLabel "Lerende en culturele stad";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD105>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD105>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_105 a skos:Concept;
-  skos:prefLabel "Uitvoeren ondersteunende Capabilities";
-  skos:narrower vocab:concept_106, vocab:concept_107, vocab:concept_108, vocab:concept_109,
-    vocab:concept_110;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_520> a skos:Concept;
+  skos:prefLabel "Toerisme ‐ Onthaal en promotie";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_520>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_520>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_106 a skos:Concept;
-  skos:prefLabel "Administratieve ondersteuning";
-  skos:broader vocab:concept_105;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_521> a skos:Concept;
+  skos:prefLabel "Toerisme ‐ Sectorondersteuning";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_521>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_521>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_107 a skos:Concept;
-  skos:prefLabel "(Interne) communicatie";
-  skos:broader vocab:concept_105;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_529> a skos:Concept;
+  skos:prefLabel "Overige activiteiten inzake toerisme";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_529>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_529>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_108 a skos:Concept;
-  skos:prefLabel "Projectmanagement";
-  skos:broader vocab:concept_105;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_700> a skos:Concept;
+  skos:prefLabel "Musea";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_700>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_700>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_109 a skos:Concept;
-  skos:prefLabel "Inkoop en contractmanagement";
-  skos:broader vocab:concept_105;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_701> a skos:Concept;
+  skos:prefLabel "Cultuurcentrum";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_701>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_701>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_110 a skos:Concept;
-  skos:prefLabel "Juridische ondersteuning";
-  skos:broader vocab:concept_105;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_703> a skos:Concept;
+  skos:prefLabel "Openbare bibliotheken";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_703>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_703>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_111 a skos:Concept;
-  skos:prefLabel "Bewaking";
-  skos:narrower vocab:concept_112, vocab:concept_113, vocab:concept_114;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes>;
-  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_709> a skos:Concept;
+  skos:prefLabel "Overige culturele instellingen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_709>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_709>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_112 a skos:Concept;
-  skos:prefLabel "Organisatie beheersing";
-  skos:broader vocab:concept_111;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_710> a skos:Concept;
+  skos:prefLabel "Feesten en plechtigheden";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_710>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_710>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_113 a skos:Concept;
-  skos:prefLabel "Compliance management";
-  skos:broader vocab:concept_111;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_719> a skos:Concept;
+  skos:prefLabel "Overige evenementen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_719>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_719>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
 
-vocab:concept_114 a skos:Concept;
-  skos:prefLabel "Samenwerkingsbewaking";
-  skos:broader vocab:concept_111;
-  skos:inScheme <http://stad.gent/id/concepts/policy_domains_themes> .
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_721> a skos:Concept;
+  skos:prefLabel "Archeologie";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_721>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_721>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_729> a skos:Concept;
+  skos:prefLabel "Overig beleid inzake het erfgoed";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_729>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_729>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_739> a skos:Concept;
+  skos:prefLabel "Overig kunst‐ en cultuurbeleid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_739>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_739>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_740> a skos:Concept;
+  skos:prefLabel "Sportsector‐ en verenigingsondersteuning";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_740>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_740>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_742> a skos:Concept;
+  skos:prefLabel "Sportinfrastructuur";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_742>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_742>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_750> a skos:Concept;
+  skos:prefLabel "Jeugdsector‐ en verenigingsondersteuning";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_750>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_750>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_751> a skos:Concept;
+  skos:prefLabel "Gemeentelijke dienstverlening gericht op kinderen & jongeren";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_751>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_751>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_752> a skos:Concept;
+  skos:prefLabel "nfrastructuur en faciliteiten ten behoeve van kinderen en jongeren";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_752>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_752>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_800> a skos:Concept;
+  skos:prefLabel "Gewoon basisonderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_800>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_800>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_801> a skos:Concept;
+  skos:prefLabel "Buitengewoon basisonderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_801>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_801>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_810> a skos:Concept;
+  skos:prefLabel "Gewoon secundair onderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_810>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_810>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_814> a skos:Concept;
+  skos:prefLabel "Leren en werken";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_814>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_814>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_815> a skos:Concept;
+  skos:prefLabel "Buitengewoon secundair onderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_815>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_815>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_820> a skos:Concept;
+  skos:prefLabel "Deeltijds kunstonderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_820>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_820>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_830> a skos:Concept;
+  skos:prefLabel "Centra voor volwassenenonderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_830>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_830>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_835> a skos:Concept;
+  skos:prefLabel "Hoger onderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_835>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_835>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_860> a skos:Concept;
+  skos:prefLabel "Centra voor leerlingenbegeleiding";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_860>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_860>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_862> a skos:Concept;
+  skos:prefLabel "Huisvesting voor schoolgaanden";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_862>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_862>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_869> a skos:Concept;
+  skos:prefLabel "Overige ondersteunende diensten voor het onderwijs";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_869>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_869>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_870> a skos:Concept;
+  skos:prefLabel "Sociale voordelen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_870>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_870>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_889> a skos:Concept;
+  skos:prefLabel "Ondersteunende diensten voor het algemeen onderwijsbeleid";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_889>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_889>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_944> a skos:Concept;
+  skos:prefLabel "Preventieve gezinsondersteuning";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_944>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_944>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_945> a skos:Concept;
+  skos:prefLabel "Kinderopvang";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_945>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_945>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_BD106> a skos:Concept;
+  skos:prefLabel "Stad met bestuurskracht";
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_100> a skos:Concept;
+  skos:prefLabel "Politieke organen";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_100>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_100>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_110> a skos:Concept;
+  skos:prefLabel "Secretariaat";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_110>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_110>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_111> a skos:Concept;
+  skos:prefLabel "Fiscale en financiële diensten";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_111>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_111>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_112> a skos:Concept;
+  skos:prefLabel "Personeelsdienst en vorming";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_112>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_112>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_113> a skos:Concept;
+  skos:prefLabel "Archief";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_113>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_113>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_114> a skos:Concept;
+  skos:prefLabel "Organisatiebeheersing";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_114>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_114>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_115> a skos:Concept;
+  skos:prefLabel "Welzijn op het werk";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_115>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_115>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_119> a skos:Concept;
+  skos:prefLabel "Overige algemene diensten";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_119>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_119>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_130> a skos:Concept;
+  skos:prefLabel "Administratieve dienstverlening";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_130>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_130>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_150> a skos:Concept;
+  skos:prefLabel "Internationale relaties";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_150>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_150>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_171> a skos:Concept;
+  skos:prefLabel "Gemeentelijk/stedelijk wijkoverleg";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_171>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_171>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_190> a skos:Concept;
+  skos:prefLabel "Overig algemeen bestuur";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_190>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_190>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
+
+<http://stad.gent/id/concepts/policy_domains_and_themesconcept_790> a skos:Concept;
+  skos:prefLabel "Erediensten";
+  skos:broader <http://stad.gent/id/concepts/policy_domains_and_themesconcept_790>;
+  skos:narrower <http://stad.gent/id/concepts/policy_domains_and_themesconcept_790>;
+  skos:inScheme <http://stad.gent/id/concepts/policy_domains_and_themes> .
