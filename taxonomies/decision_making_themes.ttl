@@ -1,0 +1,494 @@
+@prefix schema: <http://schema.org/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix vocab: <http://stad.gent/id/concepts/decision_making_themes/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+<http://stad.gent/id/concepts/decision_making_themes> a skos:ConceptScheme;
+  dct:title "Decision-making themes";
+  skos:hasTopConcept vocab:concept_1, vocab:concept_8, vocab:concept_20, vocab:concept_37,
+    vocab:concept_41, vocab:concept_42, vocab:concept_46, vocab:concept_54, vocab:concept_64,
+    vocab:concept_71 .
+
+vocab:concept_1 a skos:Concept;
+  skos:prefLabel "Burgerzaken";
+  skos:narrower vocab:concept_2, vocab:concept_3, vocab:concept_4, vocab:concept_5,
+    vocab:concept_6, vocab:concept_7;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_2 a skos:Concept;
+  skos:prefLabel "Migratie";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_3 a skos:Concept;
+  skos:prefLabel "Geboorte, adoptie en erkenning";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_4 a skos:Concept;
+  skos:prefLabel "Overlijden";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_5 a skos:Concept;
+  skos:prefLabel "Bevolkingsregister";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_6 a skos:Concept;
+  skos:prefLabel "Verkiezingen";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_7 a skos:Concept;
+  skos:prefLabel "Begraven";
+  skos:broader vocab:concept_1;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_8 a skos:Concept;
+  skos:prefLabel "Cultuur, sport en vrije tijd";
+  skos:narrower vocab:concept_9, vocab:concept_10, vocab:concept_11, vocab:concept_12,
+    vocab:concept_13, vocab:concept_14, vocab:concept_15, vocab:concept_16, vocab:concept_17,
+    vocab:concept_18, vocab:concept_19;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_9 a skos:Concept;
+  skos:prefLabel "Musea";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_10 a skos:Concept;
+  skos:prefLabel "Archief";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_11 a skos:Concept;
+  skos:prefLabel "Sport";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_12 a skos:Concept;
+  skos:prefLabel "Bibliotheek";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_13 a skos:Concept;
+  skos:prefLabel "Evenement";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_14 a skos:Concept;
+  skos:prefLabel "Gentse Feesten";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_15 a skos:Concept;
+  skos:prefLabel "Speelstraat";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_16 a skos:Concept;
+  skos:prefLabel "Horeca";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_17 a skos:Concept;
+  skos:prefLabel "Markten en foren";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_18 a skos:Concept;
+  skos:prefLabel "Monumenten";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_19 a skos:Concept;
+  skos:prefLabel "Toerisme";
+  skos:broader vocab:concept_8;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_20 a skos:Concept;
+  skos:prefLabel "Mobilteit en openbare werken";
+  skos:narrower vocab:concept_21, vocab:concept_28, vocab:concept_29, vocab:concept_30,
+    vocab:concept_34, vocab:concept_35, vocab:concept_36;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_21 a skos:Concept;
+  skos:prefLabel "Parkeren";
+  skos:broader vocab:concept_20;
+  skos:narrower vocab:concept_22, vocab:concept_23, vocab:concept_24, vocab:concept_25,
+    vocab:concept_26, vocab:concept_27;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_22 a skos:Concept;
+  skos:prefLabel "Bewonersparkeren";
+  skos:broader vocab:concept_21;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_23 a skos:Concept;
+  skos:prefLabel "Park and ride";
+  skos:broader vocab:concept_21;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_24 a skos:Concept;
+  skos:prefLabel "Parkeergarages";
+  skos:broader vocab:concept_21;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_25 a skos:Concept;
+  skos:prefLabel "Parkeerretributies en parkeerboetes";
+  skos:broader vocab:concept_21;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_26 a skos:Concept;
+  skos:prefLabel "Straatparkeren";
+  skos:broader vocab:concept_21;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_27 a skos:Concept;
+  skos:prefLabel "Vergunningen";
+  skos:broader vocab:concept_21;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_28 a skos:Concept;
+  skos:prefLabel "Openbare weg en pleinen";
+  skos:broader vocab:concept_20;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_29 a skos:Concept;
+  skos:prefLabel "Nutsvoorzieningen";
+  skos:broader vocab:concept_20;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_30 a skos:Concept;
+  skos:prefLabel "Mobiliteit";
+  skos:broader vocab:concept_20;
+  skos:narrower vocab:concept_31, vocab:concept_32, vocab:concept_33;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_31 a skos:Concept;
+  skos:prefLabel "Autodelen of fietsdelen";
+  skos:broader vocab:concept_30;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_32 a skos:Concept;
+  skos:prefLabel "Verkeerveiligheid";
+  skos:broader vocab:concept_30;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_33 a skos:Concept;
+  skos:prefLabel "Openbaar vervoer";
+  skos:broader vocab:concept_30;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_34 a skos:Concept;
+  skos:prefLabel "Straatnaamgeving";
+  skos:broader vocab:concept_20;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_35 a skos:Concept;
+  skos:prefLabel "Straatverlichting";
+  skos:broader vocab:concept_20;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_36 a skos:Concept;
+  skos:prefLabel "Wegenregister";
+  skos:broader vocab:concept_20;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_37 a skos:Concept;
+  skos:prefLabel "Jeugd";
+  skos:narrower vocab:concept_38, vocab:concept_39;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_38 a skos:Concept;
+  skos:prefLabel "Onderwijs";
+  skos:broader vocab:concept_37;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_39 a skos:Concept;
+  skos:prefLabel "Kinderopvang";
+  skos:broader vocab:concept_37;
+  skos:narrower vocab:concept_40;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_40 a skos:Concept;
+  skos:prefLabel "Buitenschoolse opvang";
+  skos:broader vocab:concept_39;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_42 a skos:Concept;
+  skos:prefLabel "Werken en ondernemen";
+  skos:narrower vocab:concept_43, vocab:concept_44, vocab:concept_45;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_43 a skos:Concept;
+  skos:prefLabel "Werk";
+  skos:broader vocab:concept_42;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_44 a skos:Concept;
+  skos:prefLabel "Ondernemen";
+  skos:broader vocab:concept_42;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_45 a skos:Concept;
+  skos:prefLabel "Sociale tewerkstelling";
+  skos:broader vocab:concept_42;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_46 a skos:Concept;
+  skos:prefLabel "Groen en milieu";
+  skos:narrower vocab:concept_47, vocab:concept_48, vocab:concept_49, vocab:concept_50,
+    vocab:concept_51, vocab:concept_52, vocab:concept_53;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_47 a skos:Concept;
+  skos:prefLabel "Afval";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_48 a skos:Concept;
+  skos:prefLabel "Speelterreinen, parken en groenzones";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_49 a skos:Concept;
+  skos:prefLabel "Begraafplaatsen";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_50 a skos:Concept;
+  skos:prefLabel "Groenonderhoud";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_51 a skos:Concept;
+  skos:prefLabel "Dieren";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_52 a skos:Concept;
+  skos:prefLabel "Milieuhinder";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_53 a skos:Concept;
+  skos:prefLabel "Klimaat en energie";
+  skos:broader vocab:concept_46;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_54 a skos:Concept;
+  skos:prefLabel "Wonen en (ver)bouwen";
+  skos:narrower vocab:concept_55, vocab:concept_56, vocab:concept_57, vocab:concept_58,
+    vocab:concept_59, vocab:concept_60, vocab:concept_61, vocab:concept_62, vocab:concept_63;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_55 a skos:Concept;
+  skos:prefLabel "Ruimtelijke planning";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_56 a skos:Concept;
+  skos:prefLabel "Inname publieke ruimte";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_57 a skos:Concept;
+  skos:prefLabel "Wonen";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_58 a skos:Concept;
+  skos:prefLabel "Leegstand";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_59 a skos:Concept;
+  skos:prefLabel "Onbewoonbaarveklaring";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_60 a skos:Concept;
+  skos:prefLabel "Onteigening";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_61 a skos:Concept;
+  skos:prefLabel "Studentenhuisvesting";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_62 a skos:Concept;
+  skos:prefLabel "Woonkwaliteit";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_63 a skos:Concept;
+  skos:prefLabel "Omgevingsvergunning";
+  skos:broader vocab:concept_54;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_64 a skos:Concept;
+  skos:prefLabel "Samenleven, welzijn en gezondheid";
+  skos:narrower vocab:concept_65, vocab:concept_66, vocab:concept_67, vocab:concept_68,
+    vocab:concept_69, vocab:concept_70;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_65 a skos:Concept;
+  skos:prefLabel "Hulpverlening";
+  skos:broader vocab:concept_64;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_66 a skos:Concept;
+  skos:prefLabel "Armoede";
+  skos:broader vocab:concept_64;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_67 a skos:Concept;
+  skos:prefLabel "Welzijnswerk";
+  skos:broader vocab:concept_64;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_68 a skos:Concept;
+  skos:prefLabel "Dak- en thuisloosheid";
+  skos:broader vocab:concept_64;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_69 a skos:Concept;
+  skos:prefLabel "Gezondheid";
+  skos:broader vocab:concept_64;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_70 a skos:Concept;
+  skos:prefLabel "Openbare orde en veiligheid";
+  skos:broader vocab:concept_64;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_71 a skos:Concept;
+  skos:prefLabel "Stadsbestuur";
+  skos:narrower vocab:concept_72, vocab:concept_73, vocab:concept_74, vocab:concept_75,
+    vocab:concept_76, vocab:concept_77, vocab:concept_78, vocab:concept_79, vocab:concept_80,
+    vocab:concept_81, vocab:concept_82, vocab:concept_83, vocab:concept_84, vocab:concept_85,
+    vocab:concept_86, vocab:concept_87, vocab:concept_88, vocab:concept_89;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_72 a skos:Concept;
+  skos:prefLabel "Dienstverlening";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_73 a skos:Concept;
+  skos:prefLabel "Belastingen en retributies";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_74 a skos:Concept;
+  skos:prefLabel "Bestuur en beleid";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_75 a skos:Concept;
+  skos:prefLabel "Overheidsopdrachten";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_76 a skos:Concept;
+  skos:prefLabel "Participatie";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_77 a skos:Concept;
+  skos:prefLabel "Privacy en gegevensbescherming";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_78 a skos:Concept;
+  skos:prefLabel "Stadseigendommen en infrastructuur";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_79 a skos:Concept;
+  skos:prefLabel "Werken bij Groep Gent";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_80 a skos:Concept;
+  skos:prefLabel "Projecten";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_81 a skos:Concept;
+  skos:prefLabel "Financieel beheer";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_82 a skos:Concept;
+  skos:prefLabel "Communicatie";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_83 a skos:Concept;
+  skos:prefLabel "Internationale relaties";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_84 a skos:Concept;
+  skos:prefLabel "Organisatiebeheersing";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_85 a skos:Concept;
+  skos:prefLabel "Erediensten";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_86 a skos:Concept;
+  skos:prefLabel "Verkiezingen";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_87 a skos:Concept;
+  skos:prefLabel "Subsidies en premies";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_88 a skos:Concept;
+  skos:prefLabel "Verenigingsondersteuning en erkenning";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_89 a skos:Concept;
+  skos:prefLabel "Regelgeving";
+  skos:broader vocab:concept_71;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes> .
+
+vocab:concept_41 a skos:Concept;
+  skos:inScheme <http://stad.gent/id/concepts/decision_making_themes>;
+  skos:topConceptOf <http://stad.gent/id/concepts/decision_making_themes> .
