@@ -17,28 +17,15 @@
 	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/45020566-588c-11ee-8c99-0242ac120002>;
     skos:inScheme <http://stad.gent/id/concepts/area_types> ;
 	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
-    skos:prefLabel "Speelterrein"@nl .
+    skos:prefLabel "Dienstencentrum"@nl .
+
 <http://stad.gent/id/concepts/area_types/45020890-588c-11ee-8c99-0242ac120002> a skos:Concept ;
     dct:identifier "45020890-588c-11ee-8c99-0242ac120002" ;
 	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/45020890-588c-11ee-8c99-0242ac120002>;
     skos:inScheme <http://stad.gent/id/concepts/area_types> ;
 	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
-    skos:prefLabel "Park"@nl .
-	
-<http://stad.gent/id/concepts/area_types/45020a16-588c-11ee-8c99-0242ac120002> a skos:Concept ;
-    dct:identifier "45020a16-588c-11ee-8c99-0242ac120002" ;
-	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/45020a16-588c-11ee-8c99-0242ac120002>;
-    skos:inScheme <http://stad.gent/id/concepts/area_types> ;
-	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
-    skos:prefLabel "Politiewerking"@nl .
+    skos:prefLabel "Welzijnswijk"@nl .
 
-<http://stad.gent/id/concepts/area_types/450211e6-588c-11ee-8c99-0242ac120002> a skos:Concept ;
-    dct:identifier "450211e6-588c-11ee-8c99-0242ac120002" ;
-	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/450211e6-588c-11ee-8c99-0242ac120002>;	
-    skos:inScheme <http://stad.gent/id/concepts/area_types> ;
-	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
-    skos:prefLabel "Deelgemeente"@nl .		
-	
 <http://stad.gent/id/concepts/area_types/0b81915c-588d-11ee-8c99-0242ac120002> a skos:Concept ;
     dct:identifier "0b81915c-588d-11ee-8c99-0242ac120002" ;
 	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/0b81915c-588d-11ee-8c99-0242ac120002>;
@@ -51,4 +38,4 @@
 	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/45020b60-588c-11ee-8c99-0242ac120002>;
     skos:inScheme <http://stad.gent/id/concepts/area_types> ;
 	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
-    skos:prefLabel "Wijk"@nl .		
+    skos:prefLabel "Wijk"@nl .
