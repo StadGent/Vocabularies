@@ -19,6 +19,13 @@
 	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
     skos:prefLabel "Dienstencentrum"@nl .
 
+<http://stad.gent/id/concepts/area_types/45020817-588g-11ee-8c99-0242ac120002> a skos:Concept ;
+    dct:identifier "45020817-588g-11ee-8c99-0242ac120002" ;
+	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/45020817-588g-11ee-8c99-0242ac120002>;
+    skos:inScheme <http://stad.gent/id/concepts/area_types> ;
+	skos:topConceptOf <http://stad.gent/id/concepts/area_types>;
+    skos:prefLabel "Welzijnsbureau"@nl .
+
 <http://stad.gent/id/concepts/area_types/45020890-588c-11ee-8c99-0242ac120002> a skos:Concept ;
     dct:identifier "45020890-588c-11ee-8c99-0242ac120002" ;
 	rdfs:isDefinedBy <http://stad.gent/data/concepts/area_types/45020890-588c-11ee-8c99-0242ac120002>;
